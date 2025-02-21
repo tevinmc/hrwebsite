@@ -8,7 +8,7 @@ import { QuoteSection } from "@/components/sections/quote"
 
 export default function Page() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-epiphanyBg">
       <Header />
       <main>
         <HeroSection />

@@ -9,7 +9,7 @@ export function MissionSection() {
         </p> */}
         <p className="text-lg leading-relaxed">
 
-        Our Mission: To empower businesses with HR expertise that fosters compliance, efficiency, and employee success.
+         To empower businesses with HR expertise that fosters compliance, efficiency, and employee success.
         </p>
 
         {/* <Button variant="outline" className="mt-8 text-white border-white hover:bg-white/10">
