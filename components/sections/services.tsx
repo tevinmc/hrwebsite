@@ -58,7 +58,7 @@ export function ServicesSection() {
         ))}
       </div>
       <div className="text-center mt-8">
-        <Button asChild variant="default" className="bg-[#333333] hover:bg-[#262626]">
+        <Button asChild variant="default" className="bg-[#333333] hover:bg-[#262626] ">
           <Link href="/services">See All HR Services</Link>
         </Button>
       </div>

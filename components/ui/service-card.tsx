@@ -17,7 +17,7 @@ export function ServiceCard({ title, description, buttonText, href }: ServiceCar
       </CardHeader>
       <CardContent>
         <p className="mb-6">{description}</p>
-        <Button asChild variant="outline" className="text-white border-white hover:bg-white/10">
+        <Button asChild variant="outline" className="text-black border-white hover:bg-white/10 opacity-50">
           <Link href={href}>{buttonText}</Link>
         </Button>
       </CardContent>
