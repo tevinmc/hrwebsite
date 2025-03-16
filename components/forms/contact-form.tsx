@@ -5,7 +5,7 @@ import { Textarea } from "@/components/ui/textarea"
 export function ContactForm() {
   return (
     <div className="bg-[#005F73] p-6 rounded-lg">
-      <h2 className="text-white text-2xl font-bold mb-4">Get in Touch</h2>
+      <h2 className="text-white text-2xl font-bold mb-4">Get in touch</h2>
       <form className="grid gap-4">
         <Input placeholder="First Name" className="bg-white" />
         <Input placeholder="Last Name" className="bg-white" />

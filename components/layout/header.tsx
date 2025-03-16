@@ -13,7 +13,7 @@ export function Header() {
           height={50}
           className="h-12 w-auto"
         />
-        <h3 className="text-xl font-semibold text-epiphanyGray">
+        <h3 className="text-xl font-bold text-epiphanyGray">
           Epiphany Enterprises International
         </h3>
       </div>
