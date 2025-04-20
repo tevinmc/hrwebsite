@@ -14,7 +14,7 @@ export function HeroSection() {
         </Button>
       </div>
       <div className="relative">
-        <Image src="/placeholder.svg" alt="Office meeting" fill className="object-cover" />
+        <Image src="/hero-main.jpg" alt="Office meeting" fill className="object-cover" />
       </div>
     </section>
   )

@@ -7,10 +7,10 @@ export function Header() {
     <nav className="flex items-center justify-between p-4 max-w-7xl mx-auto bg-epiphanyBg">
       <div className="flex items-center gap-4">
         <Image
-          src="/placeholder.svg"
-          alt="UncommonHR Logo"
-          width={180}
-          height={50}
+          src="/logo.png"
+          alt="Epiphany Enterprises International Logo"
+          width={100}
+          height={100}
           className="h-12 w-auto"
         />
         <h3 className="text-xl font-bold text-epiphanyGray">
