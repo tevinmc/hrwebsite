@@ -11,7 +11,7 @@ export function Header() {
           alt="Epiphany Enterprises International Logo"
           width={100}
           height={100}
-          className="h-12 w-auto"
+          className="h-24 w-auto"
         />
         <h3 className="text-xl font-bold text-epiphanyGray">
           Epiphany Enterprises International

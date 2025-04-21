@@ -51,17 +51,17 @@ const services = [
 export function ServicesSection() {
   return (
     <section className="py-16 px-8 bg-gray-100">
-      <h2 className="text-3xl font-serif text-center mb-12">Key Services</h2>
+      <h2 className="text-3xl font-serif text-center mb-12">Our Services</h2>
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         {services.map((service) => (
           <ServiceCard key={service.title} {...service} />
         ))}
       </div>
-      <div className="text-center mt-8">
+      {/* <div className="text-center mt-8">
         <Button asChild variant="default" className="bg-[#333333] hover:bg-[#262626] ">
           <Link href="/services">See All HR Services</Link>
         </Button>
-      </div>
+      </div> */}
     </section>
   )
 }
