@@ -11,13 +11,17 @@ interface ServiceCardProps {
 
 export function ServiceCard({ title, description, buttonText, href }: ServiceCardProps) {
   return (
-    <Card className="bg-[#333333] text-white">
-      <CardHeader>
-        <CardTitle>{title}</CardTitle>
+    <Card className="bg-[#333333] text-white h-full flex flex-col">
+      <CardHeader className="pb-2">
+        <CardTitle className="text-lg md:text-xl">{title}</CardTitle>
       </CardHeader>
-      <CardContent>
-        <p className="mb-6">{description}</p>
-        <Button asChild variant="outline" className="text-black border-white hover:bg-white/10 opacity-50">
+      <CardContent className="flex-grow flex flex-col">
+        <p className="mb-6 text-sm md:text-base">{description}</p>
+        <Button 
+          asChild 
+          variant="outline" 
+          className="text-black border-white hover:bg-white/10 opacity-50 mt-auto w-full sm:w-auto"
+        >
           <Link href={href}>{buttonText}</Link>
         </Button>
       </CardContent>

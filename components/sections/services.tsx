@@ -50,9 +50,9 @@ const services = [
 
 export function ServicesSection() {
   return (
-    <section className="py-16 px-8 bg-gray-100">
-      <h2 className="text-3xl font-serif text-center mb-12">Our Services</h2>
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+    <section className="py-12 md:py-16 px-4 md:px-8 bg-gray-100">
+      <h2 className="text-2xl md:text-3xl font-serif text-center mb-8 md:mb-12">Our Services</h2>
+      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
         {services.map((service) => (
           <ServiceCard key={service.title} {...service} />
         ))}
