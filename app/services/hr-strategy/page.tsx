@@ -3,8 +3,8 @@ import Link from "next/link"
 
 export default function HRStrategyPage() {
   return (
-    <div className="container py-12">
-      <div className="mb-8">
+    <div className="container py-8 md:py-12 px-4 md:px-6">
+      <div className="mb-6 md:mb-8">
         <Link
           href="/"
           className="text-secondary hover:text-secondary/80 transition-colors"
@@ -13,12 +13,12 @@ export default function HRStrategyPage() {
         </Link>
       </div>
 
-      <h1 className="text-4xl font-serif mb-6 text-accent-foreground border-b-2 border-accent pb-2">
+      <h1 className="text-3xl md:text-4xl font-serif mb-4 md:mb-6 text-accent-foreground border-b-2 border-accent pb-2">
         HR Strategy &amp;{" "}
         <span className="text-epiphanyBg">Organizational Development</span>
       </h1>
 
-      <article className="prose prose-lg max-w-none space-y-12 bg-epiphanyGray p-8 rounded-lg shadow-md">
+      <article className="prose prose-lg max-w-none space-y-8 md:space-y-12 bg-epiphanyGray p-4 md:p-8 rounded-lg shadow-md">
         <p>
           A strong HR strategy ensures that your workforce is aligned with your
           business goals, driving productivity, engagement, and long-term
@@ -30,7 +30,7 @@ export default function HRStrategyPage() {
         <h2 className="text-2xl text-primary mb-4">
           Developing Long‑Term HR Strategies
         </h2>
-        <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
+        <section className="border border-border rounded-md p-4 md:p-6 bg-white dark:bg-card">
           <p className="mb-4">
             A well-defined HR strategy aligns talent management with business
             objectives, ensuring organizations remain competitive in a dynamic

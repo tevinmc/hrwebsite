@@ -53,17 +53,17 @@ export default function ServicesPage() {
 
   return (
     <div>
-      <div className="max-w-7xl mx-auto px-4 py-12">
-        <div className="mb-8">
+      <div className="max-w-7xl mx-auto px-4 py-8 md:py-12">
+        <div className="mb-6 md:mb-8">
           <Link href="/" className="text-secondary hover:text-secondary/80">
             ← Back to Home
           </Link>
         </div>
-        <h1 className="text-4xl font-serif mb-12">Our Services</h1>
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <h1 className="text-3xl md:text-4xl font-serif mb-8 md:mb-12">Our Services</h1>
+        <div className="grid gap-6 md:gap-8 md:grid-cols-2 lg:grid-cols-3">
           {services.map((service) => (
-            <div key={service.href} className="bg-[#333333] text-white rounded-lg p-6">
-              <h2 className="text-2xl mb-4">{service.title}</h2>
+            <div key={service.href} className="bg-[#333333] text-white rounded-lg p-4 md:p-6">
+              <h2 className="text-xl md:text-2xl mb-3 md:mb-4">{service.title}</h2>
               <p className="mb-6">{service.description}</p>
               <Button asChild variant="outline" className="text-white border-white hover:bg-white/10">
                 <Link href={service.href}>Learn More</Link>

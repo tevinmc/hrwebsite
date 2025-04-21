@@ -3,8 +3,8 @@ import Link from "next/link"
 
 export default function EmployeeRelationsPage() {
   return (
-    <div className="container py-12">
-      <div className="mb-8">
+    <div className="container py-8 md:py-12 px-4 md:px-6">
+      <div className="mb-6 md:mb-8">
         <Link
           href="/"
           className="text-secondary hover:text-secondary/80 transition-colors"
@@ -13,12 +13,12 @@ export default function EmployeeRelationsPage() {
         </Link>
       </div>
 
-      <h1 className="text-4xl font-serif mb-6 text-accent-foreground border-b-2 border-accent pb-2">
+      <h1 className="text-3xl md:text-4xl font-serif mb-4 md:mb-6 text-accent-foreground border-b-2 border-accent pb-2">
         Employee Relations &amp;{" "}
         <span className="text-epiphanyBg">Conflict Resolution</span>
       </h1>
 
-      <article className="prose prose-lg max-w-none space-y-12 bg-epiphanyGray p-8 rounded-lg shadow-md">
+      <article className="prose prose-lg max-w-none space-y-8 md:space-y-12 bg-epiphanyGray p-4 md:p-8 rounded-lg shadow-md">
         <p>
           A healthy workplace culture fosters employee engagement, reduces
           turnover, and enhances productivity. We help businesses manage employee
@@ -31,7 +31,7 @@ export default function EmployeeRelationsPage() {
         <h2 className="text-2xl text-primary mb-4">
           Workplace Dispute Mediation &amp; Conflict Resolution
         </h2>
-        <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
+        <section className="border border-border rounded-md p-4 md:p-6 bg-white dark:bg-card">
           <ul className="list-disc list-inside space-y-2">
             <li>
               <strong>Impartial Workplace Mediation:</strong> We facilitate
