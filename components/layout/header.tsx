@@ -15,9 +15,9 @@ export function Header() {
           <Image
             src="/logo.png"
             alt="Epiphany Enterprises International Logo"
-            width={100}
-            height={100}
-            className="h-16 w-auto md:h-24"
+            width={150}
+            height={150}
+            className="h-24 w-auto md:h-36"
           />
           <h3 className="text-sm md:text-xl font-bold text-epiphanyGray">
             Epiphany Enterprises International
