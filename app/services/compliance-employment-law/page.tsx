@@ -31,9 +31,9 @@ export default function ComplianceEmploymentLawPage() {
         <section className="border border-border rounded-md p-4 md:p-6 bg-white dark:bg-card">
           <h3 className="text-xl font-medium mb-2 text-foreground">Workplace Investigations</h3>
           <ul className="list-disc list-inside space-y-2 md:space-y-3">
-            <li>
-              Conduct impartial investigations into workplace misconduct, harassment,
-              and discrimination claims while adhering to EEOC (U.S.), ACAS (UK), and
+            <li className="py-1">
+              <strong>Conduct impartial investigations into workplace misconduct, harassment,
+              and discrimination claims</strong> while adhering to EEOC (U.S.), ACAS (UK), and
               international labor standards.
             </li>
             <li>
