@@ -173,11 +173,13 @@ export default function HRStrategyPage() {
           <h3 className="text-lg font-medium mb-2">
             Identifying &amp; Developing Future Leaders
           </h3>
-          <ul className="list-disc list-inside space-y-2 md:space-y-3 mb-4">
+          <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3 mb-4">
             <li>
-              <strong>Talent Assessment &amp; Readiness Programs:</strong>{" "}
-              Identifying high-potential employees and preparing them for
-              leadership roles.
+              <div className="pl-1">
+                <strong>Talent Assessment &amp; Readiness Programs:</strong>{" "}
+                Identifying high-potential employees and preparing them for
+                leadership roles.
+              </div>
             </li>
             <li>
               <div className="pl-1">
