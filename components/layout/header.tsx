@@ -29,9 +29,9 @@ export function Header() {
           <Link href="#" className="text-neutral-700 hover:text-neutral-900">
             Home
           </Link>
-          <Link href="#" className="text-neutral-700 hover:text-neutral-900">
+          {/* <Link href="#" className="text-neutral-700 hover:text-neutral-900">
             About
-          </Link>
+          </Link> */}
           <Link href="#" className="text-neutral-700 hover:text-neutral-900">
             Services
           </Link>

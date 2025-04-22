@@ -9,13 +9,13 @@ export function Footer() {
         <div>
           <Image src="/logo.png" alt="" width={180} height={50} className="h-24 w-auto mb-6" />
           <div className="flex gap-4">
-            <Link href="#" className="text-white hover:text-gray-300">
+            {/* <Link href="#" className="text-white hover:text-gray-300">
               LinkedIn
             </Link>
             <span>|</span>
             <Link href="#" className="text-white hover:text-gray-300">
               Twitter
-            </Link>
+            </Link> */}
           </div>
         </div>
         <ContactForm />
