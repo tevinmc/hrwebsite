@@ -28,7 +28,7 @@ export default function WorkforcePlanningPage() {
           policies, and future workforce planning.
         </p>
 
-        <h2 className="text-2xl text-primary mb-4">
+        <h2 className="text-2xl text-primary mb-2">
           Strategic Workforce Planning &amp; Organizational Readiness
         </h2>
         <section className="border border-border rounded-md p-4 md:p-6 bg-white dark:bg-card">
@@ -63,7 +63,7 @@ export default function WorkforcePlanningPage() {
           </ul>
         </section>
 
-        <h2 className="text-2xl text-primary mb-4">
+        <h2 className="text-2xl text-primary mb-2">
           Compliance-Focused Workforce Adjustments
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
@@ -86,7 +86,7 @@ export default function WorkforcePlanningPage() {
           </ul>
         </section>
 
-        <h2 className="text-2xl text-primary mb-4">
+        <h2 className="text-2xl text-primary mb-2">
           Managing Layoffs &amp; Organizational Restructuring
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
@@ -134,7 +134,7 @@ export default function WorkforcePlanningPage() {
           </ul>
         </section>
 
-        <h2 className="text-2xl text-primary mb-4">
+        <h2 className="text-2xl text-primary mb-2">
           Severance Policies &amp; Exit Strategy Development
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
@@ -179,7 +179,7 @@ export default function WorkforcePlanningPage() {
           </ul>
         </section>
 
-        <h2 className="text-2xl text-primary mb-4">
+        <h2 className="text-2xl text-primary mb-2">
           Future Workforce Planning &amp; Organizational Growth
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">

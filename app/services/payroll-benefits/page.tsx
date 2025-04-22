@@ -27,7 +27,7 @@ export default function PayrollBenefitsPage() {
           and retain top talent.
         </p>
 
-        <h2 className="text-2xl text-primary mb-4">
+        <h2 className="text-2xl text-primary mb-2">
           Payroll Setup &amp; Compliance Management
         </h2>
         <section className="border border-border rounded-md p-4 md:p-6 bg-white dark:bg-card">
@@ -82,7 +82,7 @@ export default function PayrollBenefitsPage() {
           </ul>
         </section>
 
-        <h2 className="text-2xl text-primary mb-4">
+        <h2 className="text-2xl text-primary mb-2">
           Employee Benefits Selection &amp; Management
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
@@ -129,7 +129,7 @@ export default function PayrollBenefitsPage() {
           </ul>
         </section>
 
-        <h2 className="text-2xl text-primary mb-4">
+        <h2 className="text-2xl text-primary mb-2">
           Employee Benefits Education &amp; Communication
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">

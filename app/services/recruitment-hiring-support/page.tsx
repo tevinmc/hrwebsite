@@ -28,7 +28,7 @@ export default function RecruitmentHiringSupportPage() {
           employees.
         </p>
 
-        <h2 className="text-2xl text-primary mb-4">
+        <h2 className="text-2xl text-primary mb-2">
           Strategic Talent Acquisition &amp; Workforce Planning
         </h2>
         <section className="border border-border rounded-md p-4 md:p-6 bg-white dark:bg-card">
@@ -54,7 +54,7 @@ export default function RecruitmentHiringSupportPage() {
           </ul>
         </section>
 
-        <h2 className="text-2xl text-primary mb-4">
+        <h2 className="text-2xl text-primary mb-2">
           Legally Compliant Job Descriptions &amp; Job Postings
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
@@ -80,7 +80,7 @@ export default function RecruitmentHiringSupportPage() {
           </ul>
         </section>
 
-        <h2 className="text-2xl text-primary mb-4">
+        <h2 className="text-2xl text-primary mb-2">
           Compliant Candidate Screening &amp; Interviewing
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
@@ -106,7 +106,7 @@ export default function RecruitmentHiringSupportPage() {
           </ul>
         </section>
 
-        <h2 className="text-2xl text-primary mb-4">
+        <h2 className="text-2xl text-primary mb-2">
           International &amp; Cross‑Border Hiring Compliance
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
@@ -130,7 +130,7 @@ export default function RecruitmentHiringSupportPage() {
           </ul>
         </section>
 
-        <h2 className="text-2xl text-primary mb-4">
+        <h2 className="text-2xl text-primary mb-2">
           Legally Compliant Background &amp; Reference Checks
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
@@ -153,7 +153,7 @@ export default function RecruitmentHiringSupportPage() {
           </ul>
         </section>
 
-        <h2 className="text-2xl text-primary mb-4">
+        <h2 className="text-2xl text-primary mb-2">
           Seamless &amp; Compliant Onboarding Solutions
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">

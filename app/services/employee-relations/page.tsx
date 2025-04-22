@@ -28,7 +28,7 @@ export default function EmployeeRelationsPage() {
           regulations, and best practices in conflict resolution.
         </p>
 
-        <h2 className="text-2xl text-primary mb-4">
+        <h2 className="text-2xl text-primary mb-2">
           Workplace Dispute Mediation &amp; Conflict Resolution
         </h2>
         <section className="border border-border rounded-md p-4 md:p-6 bg-white dark:bg-card">
@@ -61,7 +61,7 @@ export default function EmployeeRelationsPage() {
           </ul>
         </section>
 
-        <h2 className="text-2xl text-primary mb-4">
+        <h2 className="text-2xl text-primary mb-2">
           Manager Training: Communication &amp; Leadership Development
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
@@ -90,7 +90,7 @@ export default function EmployeeRelationsPage() {
           </ul>
         </section>
 
-        <h2 className="text-2xl text-primary mb-4">
+        <h2 className="text-2xl text-primary mb-2">
           Handling Employee Grievances &amp; Complaint Resolution
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
@@ -118,7 +118,7 @@ export default function EmployeeRelationsPage() {
           </ul>
         </section>
 
-        <h2 className="text-2xl text-primary mb-4">
+        <h2 className="text-2xl text-primary mb-2">
           Building a Positive Workplace Culture
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">

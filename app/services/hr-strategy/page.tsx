@@ -27,7 +27,7 @@ export default function HRStrategyPage() {
           succession planning.
         </p>
 
-        <h2 className="text-2xl text-primary mb-4">
+        <h2 className="text-2xl text-primary mb-2">
           Developing Long‑Term HR Strategies
         </h2>
         <section className="border border-border rounded-md p-4 md:p-6 bg-white dark:bg-card">
@@ -85,7 +85,7 @@ export default function HRStrategyPage() {
           </ul>
         </section>
 
-        <h2 className="text-2xl text-primary mb-4">
+        <h2 className="text-2xl text-primary mb-2">
           Leadership Coaching &amp; Training
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
@@ -137,7 +137,7 @@ export default function HRStrategyPage() {
           </ul>
         </section>
 
-        <h2 className="text-2xl text-primary mb-4">
+        <h2 className="text-2xl text-primary mb-2">
           Succession Planning &amp; Leadership Pipelines
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">

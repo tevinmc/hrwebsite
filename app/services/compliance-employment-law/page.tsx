@@ -26,8 +26,7 @@ export default function ComplianceEmploymentLawPage() {
           minimizing legal risks and promoting best practices in workforce management.
         </p>
 
-        <h2 className="text-2xl text-primary mb-4">Regulatory Compliance &amp; Risk Mitigation</h2>
-
+        <h2 className="text-2xl text-primary mb-2">Regulatory Compliance &amp; Risk Mitigation</h2>
         <section className="border border-border rounded-md p-4 md:p-6 bg-white dark:bg-card">
           <h3 className="text-xl font-medium mb-2 text-foreground">Workplace Investigations</h3>
           <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3">
