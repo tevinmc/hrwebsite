@@ -145,13 +145,13 @@ export default function Page() {
           <div>
             <Image src="/placeholder.svg" alt="UncommonHR Logo" width={180} height={50} className="h-12 w-auto mb-6" />
             <div className="flex gap-4">
-              <Link href="#" className="text-white hover:text-gray-300">
+              {/* <Link href="#" className="text-white hover:text-gray-300">
                 LinkedIn
               </Link>
               <span>|</span>
               <Link href="#" className="text-white hover:text-gray-300">
                 Twitter
-              </Link>
+              </Link> */}
             </div>
           </div>
           <div className="bg-[#005F73] p-6 rounded-lg">

@@ -9,9 +9,6 @@ export function HeroSection() {
         <h1 className="text-3xl md:text-5xl font-serif mb-4">
           Helping businesses streamline HR operations, stay compliant, and build strong teams.
         </h1>
-        <Button asChild variant="outline" className="w-fit mt-6 text-black border-white hover:bg-white/10">
-          <Link href="/services">Explore Services</Link>
-        </Button>
       </div>
       <div className="relative h-[300px] md:h-auto order-1 md:order-2">
         <Image 

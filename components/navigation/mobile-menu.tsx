@@ -7,7 +7,6 @@ interface MobileMenuProps {
 export function MobileMenu({ onItemClick }: MobileMenuProps) {
   const menuItems = [
     { href: "#", label: "Home" },
-    { href: "#", label: "About" },
     { href: "#", label: "Services" },
   ]
 
