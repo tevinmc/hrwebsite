@@ -28,7 +28,7 @@ export default function RecruitmentHiringSupportPage() {
           employees.
         </p>
 
-        <h2 className="text-2xl text-primary mb-2">
+        <h2 className="text-2xl text-primary mb-2 font-bold">
           Strategic Talent Acquisition &amp; Workforce Planning
         </h2>
         <section className="border border-border rounded-md p-4 md:p-6 bg-white dark:bg-card">
@@ -58,7 +58,7 @@ export default function RecruitmentHiringSupportPage() {
           </ul>
         </section>
 
-        <h2 className="text-2xl text-primary mb-2">
+        <h2 className="text-2xl text-primary mb-2 font-bold">
           Legally Compliant Job Descriptions &amp; Job Postings
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
@@ -88,7 +88,7 @@ export default function RecruitmentHiringSupportPage() {
           </ul>
         </section>
 
-        <h2 className="text-2xl text-primary mb-2">
+        <h2 className="text-2xl text-primary mb-2 font-bold">
           Compliant Candidate Screening &amp; Interviewing
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
@@ -118,7 +118,7 @@ export default function RecruitmentHiringSupportPage() {
           </ul>
         </section>
 
-        <h2 className="text-2xl text-primary mb-2">
+        <h2 className="text-2xl text-primary mb-2 font-bold">
           International &amp; Cross‑Border Hiring Compliance
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
@@ -148,7 +148,7 @@ export default function RecruitmentHiringSupportPage() {
           </ul>
         </section>
 
-        <h2 className="text-2xl text-primary mb-2">
+        <h2 className="text-2xl text-primary mb-2 font-bold">
           Legally Compliant Background &amp; Reference Checks
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
@@ -175,7 +175,7 @@ export default function RecruitmentHiringSupportPage() {
           </ul>
         </section>
 
-        <h2 className="text-2xl text-primary mb-2">
+        <h2 className="text-2xl text-primary mb-2 font-bold">
           Seamless &amp; Compliant Onboarding Solutions
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
@@ -206,7 +206,7 @@ export default function RecruitmentHiringSupportPage() {
           </ul>
         </section>
 
-        <h2 className="text-2xl text-primary mb-4">Why Work With Us?</h2>
+        <h2 className="text-2xl text-primary mb-4 font-bold">Why Work With Us?</h2>
         <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3">
           <li><div className="pl-1">Legally Compliant &amp; Risk‑Free Hiring</div></li>
           <li><div className="pl-1">Efficient &amp; Scalable Hiring Process</div></li>

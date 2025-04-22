@@ -28,7 +28,7 @@ export default function WorkforcePlanningPage() {
           policies, and future workforce planning.
         </p>
 
-        <h2 className="text-2xl text-primary mb-2">
+        <h2 className="text-2xl text-primary mb-2 font-bold">
           Strategic Workforce Planning &amp; Organizational Readiness
         </h2>
         <section className="border border-border rounded-md p-4 md:p-6 bg-white dark:bg-card">
@@ -63,7 +63,7 @@ export default function WorkforcePlanningPage() {
           </ul>
         </section>
 
-        <h2 className="text-2xl text-primary mb-2">
+        <h2 className="text-2xl text-primary mb-2 font-bold">
           Compliance-Focused Workforce Adjustments
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
@@ -92,7 +92,7 @@ export default function WorkforcePlanningPage() {
           </ul>
         </section>
 
-        <h2 className="text-2xl text-primary mb-2">
+        <h2 className="text-2xl text-primary mb-2 font-bold">
           Managing Layoffs &amp; Organizational Restructuring
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
@@ -152,7 +152,7 @@ export default function WorkforcePlanningPage() {
           </ul>
         </section>
 
-        <h2 className="text-2xl text-primary mb-2">
+        <h2 className="text-2xl text-primary mb-2 font-bold">
           Severance Policies &amp; Exit Strategy Development
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
@@ -209,7 +209,7 @@ export default function WorkforcePlanningPage() {
           </ul>
         </section>
 
-        <h2 className="text-2xl text-primary mb-2">
+        <h2 className="text-2xl text-primary mb-2 font-bold">
           Future Workforce Planning &amp; Organizational Growth
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
@@ -266,7 +266,7 @@ export default function WorkforcePlanningPage() {
           </ul>
         </section>
 
-        <h2 className="text-2xl text-primary mb-4">
+        <h2 className="text-2xl text-primary mb-4 font-bold">
           Why Choose Our Workforce Planning &amp; Downsizing Services?
         </h2>
         <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3">

@@ -27,7 +27,7 @@ export default function PerformanceManagementPage() {
           labor laws.
         </p>
 
-        <h2 className="text-2xl text-primary mb-2">
+        <h2 className="text-2xl text-primary mb-2 font-bold">
           Implementing Effective Performance Review Systems
         </h2>
         <section className="border border-border rounded-md p-4 md:p-6 bg-white dark:bg-card">
@@ -59,7 +59,7 @@ export default function PerformanceManagementPage() {
           </ul>
         </section>
 
-        <h2 className="text-2xl text-primary mb-2">
+        <h2 className="text-2xl text-primary mb-2 font-bold">
           Training Leaders on Effective Performance Management
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
@@ -87,7 +87,7 @@ export default function PerformanceManagementPage() {
           </ul>
         </section>
 
-        <h2 className="text-2xl text-primary mb-2">
+        <h2 className="text-2xl text-primary mb-2 font-bold">
           Developing Retention &amp; Engagement Strategies
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
@@ -140,7 +140,7 @@ export default function PerformanceManagementPage() {
           </ul>
         </section>
 
-        <h2 className="text-2xl text-primary mb-2">
+        <h2 className="text-2xl text-primary mb-2 font-bold">
           Creating Improvement Plans for Underperforming Employees
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
@@ -171,7 +171,7 @@ export default function PerformanceManagementPage() {
           </ul>
         </section>
 
-        <h2 className="text-2xl text-primary mb-2">
+        <h2 className="text-2xl text-primary mb-2 font-bold">
           Handling Terminations &amp; Legal Considerations
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
@@ -197,7 +197,7 @@ export default function PerformanceManagementPage() {
           </ul>
         </section>
 
-        <h2 className="text-2xl text-primary mb-4">
+        <h2 className="text-2xl text-primary mb-4 font-bold">
           Why Choose Our Performance Management Services?
         </h2>
         <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3">
