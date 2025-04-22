@@ -65,27 +65,35 @@ export default function EmployeeRelationsPage() {
           Manager Training: Communication &amp; Leadership Development
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
-          <ul className="list-disc list-inside space-y-2 md:space-y-3">
+          <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3">
             <li>
-              <strong>Training for Conflict Prevention &amp; Resolution:</strong> We
-              equip managers with skills to de‑escalate conflicts, foster open
-              communication, and address employee concerns early.
+              <div className="pl-1">
+                <strong>Training for Conflict Prevention &amp; Resolution:</strong> We
+                equip managers with skills to de‑escalate conflicts, foster open
+                communication, and address employee concerns early.
+              </div>
             </li>
             <li>
-              <strong>Leadership Development &amp; Emotional Intelligence:</strong>{" "}
-              Our coaching programs focus on effective communication, empathy,
-              active listening, and decision‑making to create a positive work
-              environment.
+              <div className="pl-1">
+                <strong>Leadership Development &amp; Emotional Intelligence:</strong>{" "}
+                Our coaching programs focus on effective communication, empathy,
+                active listening, and decision‑making to create a positive work
+                environment.
+              </div>
             </li>
             <li>
-              <strong>Legal Compliance in Management Practices:</strong> We train
-              managers to handle terminations, disciplinary actions, and disputes
-              per U.S. and international employment laws.
+              <div className="pl-1">
+                <strong>Legal Compliance in Management Practices:</strong> We train
+                managers to handle terminations, disciplinary actions, and disputes
+                per U.S. and international employment laws.
+              </div>
             </li>
             <li>
-              <strong>DEI in Leadership:</strong> We provide inclusive leadership
-              training to help managers lead diverse teams effectively, fostering
-              equal opportunity and non‑discriminatory practices.
+              <div className="pl-1">
+                <strong>DEI in Leadership:</strong> We provide inclusive leadership
+                training to help managers lead diverse teams effectively, fostering
+                equal opportunity and non‑discriminatory practices.
+              </div>
             </li>
           </ul>
         </section>
@@ -94,26 +102,34 @@ export default function EmployeeRelationsPage() {
           Handling Employee Grievances &amp; Complaint Resolution
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
-          <ul className="list-disc list-inside space-y-2 md:space-y-3">
+          <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3">
             <li>
-              <strong>Fair &amp; Transparent Grievance Policies:</strong> We help
-              establish clear procedures that comply with U.S. labor laws, UK
-              employment tribunals, and global regulations.
+              <div className="pl-1">
+                <strong>Fair &amp; Transparent Grievance Policies:</strong> We help
+                establish clear procedures that comply with U.S. labor laws, UK
+                employment tribunals, and global regulations.
+              </div>
             </li>
             <li>
-              <strong>Investigating Employee Complaints:</strong> We conduct
-              thorough, impartial investigations into harassment, discrimination,
-              retaliation, and other misconduct.
+              <div className="pl-1">
+                <strong>Investigating Employee Complaints:</strong> We conduct
+                thorough, impartial investigations into harassment, discrimination,
+                retaliation, and other misconduct.
+              </div>
             </li>
             <li>
-              <strong>Corrective Actions &amp; Legal Compliance:</strong> We assist
-              in implementing fair disciplinary measures while protecting both
-              employees and businesses.
+              <div className="pl-1">
+                <strong>Corrective Actions &amp; Legal Compliance:</strong> We assist
+                in implementing fair disciplinary measures while protecting both
+                employees and businesses.
+              </div>
             </li>
             <li>
-              <strong>Whistleblower Protection:</strong> We align policies with
-              SOX (U.S.), EU Whistleblower Directive, and international protections
-              to prevent retaliation.
+              <div className="pl-1">
+                <strong>Whistleblower Protection:</strong> We align policies with
+                SOX (U.S.), EU Whistleblower Directive, and international protections
+                to prevent retaliation.
+              </div>
             </li>
           </ul>
         </section>
@@ -122,21 +138,27 @@ export default function EmployeeRelationsPage() {
           Building a Positive Workplace Culture
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
-          <ul className="list-disc list-inside space-y-2 md:space-y-3">
+          <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3">
             <li>
-              <strong>Employee Engagement Strategies:</strong> We help boost morale,
-              reduce turnover, and create a workplace where employees feel valued
-              and heard.
+              <div className="pl-1">
+                <strong>Employee Engagement Strategies:</strong> We help boost morale,
+                reduce turnover, and create a workplace where employees feel valued
+                and heard.
+              </div>
             </li>
             <li>
-              <strong>Proactive Relations Management:</strong> We develop policies
-              that prevent conflicts, improve communication, and foster
-              collaboration.
+              <div className="pl-1">
+                <strong>Proactive Relations Management:</strong> We develop policies
+                that prevent conflicts, improve communication, and foster
+                collaboration.
+              </div>
             </li>
             <li>
-              <strong>Remote &amp; Hybrid Workforce Relations:</strong> We guide
-              distributed teams on virtual conflict resolution and maintaining
-              engagement in remote settings.
+              <div className="pl-1">
+                <strong>Remote &amp; Hybrid Workforce Relations:</strong> We guide
+                distributed teams on virtual conflict resolution and maintaining
+                engagement in remote settings.
+              </div>
             </li>
           </ul>
         </section>
@@ -145,9 +167,9 @@ export default function EmployeeRelationsPage() {
           Why Choose Our Employee Relations &amp; Conflict Resolution Services?
         </h2>
         <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3">
-          <li> Legally Compliant &amp; Risk‑Free Solutions</li>
-          <li> Proactive Conflict Prevention</li>
-          <li> Customized Support for Your Business</li>
+          <li><div className="pl-1">Legally Compliant &amp; Risk‑Free Solutions</div></li>
+          <li><div className="pl-1">Proactive Conflict Prevention</div></li>
+          <li><div className="pl-1">Customized Support for Your Business</div></li>
         </ul>
       </article>
     </div>

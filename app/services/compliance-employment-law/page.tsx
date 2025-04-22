@@ -38,32 +38,42 @@ export default function ComplianceEmploymentLawPage() {
               </div>
             </li>
             <li>
-              Ensure compliance with whistleblower protections, anti‑retaliation laws,
-              and confidentiality requirements across different jurisdictions.
+              <div className="pl-1">
+                Ensure compliance with whistleblower protections, anti‑retaliation laws,
+                and confidentiality requirements across different jurisdictions.
+              </div>
             </li>
             <li>
-              Provide detailed reports with recommendations to mitigate legal risks
-              and maintain workplace integrity.
+              <div className="pl-1">
+                Provide detailed reports with recommendations to mitigate legal risks
+                and maintain workplace integrity.
+              </div>
             </li>
           </ul>
         </section>
 
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
           <h3 className="text-xl font-medium mb-2 text-foreground">HR Audits &amp; Compliance Reviews</h3>
-          <ul className="list-disc list-inside space-y-2 md:space-y-3">
+          <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3">
             <li>
-              Assess compliance with U.S. laws such as the FLSA, FMLA, and ADA, as well
-              as global labor laws including the EU Working Time Directive, UK
-              Employment Rights Act, and country‑specific wage and hour regulations.
+              <div className="pl-1">
+                Assess compliance with U.S. laws such as the FLSA, FMLA, and ADA, as well
+                as global labor laws including the EU Working Time Directive, UK
+                Employment Rights Act, and country‑specific wage and hour regulations.
+              </div>
             </li>
             <li>
-              Conduct payroll and benefits audits to ensure adherence to tax laws,
-              social security contributions, and statutory entitlements in multiple
-              countries.
+              <div className="pl-1">
+                Conduct payroll and benefits audits to ensure adherence to tax laws,
+                social security contributions, and statutory entitlements in multiple
+                countries.
+              </div>
             </li>
             <li>
-              Provide customized action plans for multi‑national organizations to
-              maintain legal compliance across different regulatory environments.
+              <div className="pl-1">
+                Provide customized action plans for multi‑national organizations to
+                maintain legal compliance across different regulatory environments.
+              </div>
             </li>
           </ul>
         </section>
@@ -73,18 +83,24 @@ export default function ComplianceEmploymentLawPage() {
         <h2 className="text-2xl text-primary mb-4">Why Choose Our Compliance Services?</h2>
         <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3">
           <li>
-            <strong>Global Expertise:</strong> Our team ensures compliance with
-            employment laws across multiple regions, including North America,
-            Europe, Asia, Latin America, and the Middle East.
+            <div className="pl-1">
+              <strong>Global Expertise:</strong> Our team ensures compliance with
+              employment laws across multiple regions, including North America,
+              Europe, Asia, Latin America, and the Middle East.
+            </div>
           </li>
           <li>
-            <strong>Risk Mitigation Strategies:</strong> We proactively address
-            legal risks and ensure your business remains compliant with
-            ever‑changing labor laws.
+            <div className="pl-1">
+              <strong>Risk Mitigation Strategies:</strong> We proactively address
+              legal risks and ensure your business remains compliant with
+              ever‑changing labor laws.
+            </div>
           </li>
           <li>
-            <strong>Tailored Solutions:</strong> We customize our services to fit
-            your industry, workforce structure, and international expansion plans.
+            <div className="pl-1">
+              <strong>Tailored Solutions:</strong> We customize our services to fit
+              your industry, workforce structure, and international expansion plans.
+            </div>
           </li>
         </ul>
       </article>

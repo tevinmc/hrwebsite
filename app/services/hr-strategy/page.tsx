@@ -50,14 +50,18 @@ export default function HRStrategyPage() {
               </div>
             </li>
             <li>
-              <strong>Workforce Analytics &amp; Data‑Driven Decisions:</strong>{" "}
-              Utilizing HR metrics, turnover analysis, and talent forecasting to
-              improve workforce planning.
+              <div className="pl-1">
+                <strong>Workforce Analytics &amp; Data‑Driven Decisions:</strong>{" "}
+                Utilizing HR metrics, turnover analysis, and talent forecasting to
+                improve workforce planning.
+              </div>
             </li>
             <li>
-              <strong>Scaling HR for Growth:</strong> Helping businesses optimize
-              HR operations, policies, and systems as they expand locally and
-              globally.
+              <div className="pl-1">
+                <strong>Scaling HR for Growth:</strong> Helping businesses optimize
+                HR operations, policies, and systems as they expand locally and
+                globally.
+              </div>
             </li>
           </ul>
         </section>
@@ -66,21 +70,27 @@ export default function HRStrategyPage() {
           <h3 className="text-lg font-medium mb-2">
             HR Policy Development &amp; Org Structure Optimization
           </h3>
-          <ul className="list-disc list-inside space-y-2 md:space-y-3">
+          <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3">
             <li>
-              <strong>Creating HR Policies That Support Growth:</strong> Developing
-              scalable policies that foster productivity, engagement, and
-              compliance.
+              <div className="pl-1">
+                <strong>Creating HR Policies That Support Growth:</strong> Developing
+                scalable policies that foster productivity, engagement, and
+                compliance.
+              </div>
             </li>
             <li>
-              <strong>Organizational Design &amp; Structure Optimization:</strong>{" "}
-              Assessing current structures and recommending adjustments for
-              efficiency, agility, and future scalability.
+              <div className="pl-1">
+                <strong>Organizational Design &amp; Structure Optimization:</strong>{" "}
+                Assessing current structures and recommending adjustments for
+                efficiency, agility, and future scalability.
+              </div>
             </li>
             <li>
-              <strong>HR Technology &amp; Process Optimization:</strong> Assisting
-              with HRIS selection, automation, and integration to streamline
-              workforce management.
+              <div className="pl-1">
+                <strong>HR Technology &amp; Process Optimization:</strong> Assisting
+                with HRIS selection, automation, and integration to streamline
+                workforce management.
+              </div>
             </li>
           </ul>
         </section>
@@ -101,38 +111,50 @@ export default function HRStrategyPage() {
           </h3>
           <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3 mb-4">
             <li>
-              <strong>One-on-One Leadership Coaching:</strong> Personalized
-              coaching for executives, senior leaders, and mid-level managers to
-              enhance leadership effectiveness.
+              <div className="pl-1">
+                <strong>One-on-One Leadership Coaching:</strong> Personalized
+                coaching for executives, senior leaders, and mid-level managers to
+                enhance leadership effectiveness.
+              </div>
             </li>
             <li>
-              <strong>Leadership Development Programs:</strong> Custom training on
-              decision-making, communication, emotional intelligence, and people
-              management.
+              <div className="pl-1">
+                <strong>Leadership Development Programs:</strong> Custom training on
+                decision-making, communication, emotional intelligence, and people
+                management.
+              </div>
             </li>
             <li>
-              <strong>Building High-Performance Teams:</strong> Cultivating strong
-              leadership at every level for sustained success.
+              <div className="pl-1">
+                <strong>Building High-Performance Teams:</strong> Cultivating strong
+                leadership at every level for sustained success.
+              </div>
             </li>
           </ul>
 
           <h3 className="text-lg font-medium mb-2">
             Training &amp; Development for Managers
           </h3>
-          <ul className="list-disc list-inside space-y-2 md:space-y-3">
+          <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3">
             <li>
-              <strong>Performance Management Training:</strong> Teaching managers
-              to set goals, give constructive feedback, and handle evaluations
-              fairly.
+              <div className="pl-1">
+                <strong>Performance Management Training:</strong> Teaching managers
+                to set goals, give constructive feedback, and handle evaluations
+                fairly.
+              </div>
             </li>
             <li>
-              <strong>Conflict Resolution &amp; Employee Relations Training:</strong>{" "}
-              Equipping leaders to mediate disputes and foster positive team
-              dynamics.
+              <div className="pl-1">
+                <strong>Conflict Resolution &amp; Employee Relations Training:</strong>{" "}
+                Equipping leaders to mediate disputes and foster positive team
+                dynamics.
+              </div>
             </li>
             <li>
-              <strong>Change Management &amp; Agility:</strong> Preparing leaders
-              to guide teams through transitions with minimal disruption.
+              <div className="pl-1">
+                <strong>Change Management &amp; Agility:</strong> Preparing leaders
+                to guide teams through transitions with minimal disruption.
+              </div>
             </li>
           </ul>
         </section>
@@ -158,30 +180,40 @@ export default function HRStrategyPage() {
               leadership roles.
             </li>
             <li>
-              <strong>Career Pathing &amp; Mobility Programs:</strong> Structured
-              growth opportunities aligned with business needs.
+              <div className="pl-1">
+                <strong>Career Pathing &amp; Mobility Programs:</strong> Structured
+                growth opportunities aligned with business needs.
+              </div>
             </li>
             <li>
-              <strong>Mentorship &amp; Coaching:</strong> Formal programs guiding
-              emerging leaders into key positions.
+              <div className="pl-1">
+                <strong>Mentorship &amp; Coaching:</strong> Formal programs guiding
+                emerging leaders into key positions.
+              </div>
             </li>
           </ul>
 
           <h3 className="text-lg font-medium mb-2">
             Ensuring Continuity &amp; Stability
           </h3>
-          <ul className="list-disc list-inside space-y-2 md:space-y-3">
+          <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3">
             <li>
-              <strong>Emergency Succession Plans:</strong> Structured plans for
-              C-suite, senior management, and mission-critical roles.
+              <div className="pl-1">
+                <strong>Emergency Succession Plans:</strong> Structured plans for
+                C-suite, senior management, and mission-critical roles.
+              </div>
             </li>
             <li>
-              <strong>Retirement &amp; Turnover Planning:</strong> Knowledge
-              transfer strategies for demographic shifts and retention risks.
+              <div className="pl-1">
+                <strong>Retirement &amp; Turnover Planning:</strong> Knowledge
+                transfer strategies for demographic shifts and retention risks.
+              </div>
             </li>
             <li>
-              <strong>Diversity &amp; Inclusion:</strong> Inclusive pipelines that
-              reflect organizational values.
+              <div className="pl-1">
+                <strong>Diversity &amp; Inclusion:</strong> Inclusive pipelines that
+                reflect organizational values.
+              </div>
             </li>
           </ul>
         </section>
@@ -191,16 +223,22 @@ export default function HRStrategyPage() {
         </h2>
         <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3">
           <li>
-             Future-Focused Workforce Planning – Designing strategies for
-            sustainable growth.
+            <div className="pl-1">
+              Future-Focused Workforce Planning – Designing strategies for
+              sustainable growth.
+            </div>
           </li>
           <li>
-             Leadership-Driven Development – Coaching programs that build
-            capable leaders.
+            <div className="pl-1">
+              Leadership-Driven Development – Coaching programs that build
+              capable leaders.
+            </div>
           </li>
           <li>
-             Proactive Succession Planning – Preparing organizations for
-            smooth leadership transitions.
+            <div className="pl-1">
+              Proactive Succession Planning – Preparing organizations for
+              smooth leadership transitions.
+            </div>
           </li>
         </ul>
       </article>
