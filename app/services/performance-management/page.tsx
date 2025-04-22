@@ -50,9 +50,11 @@ export default function PerformanceManagementPage() {
               Defining clear performance metrics aligned with business objectives.
             </li>
             <li>
-              <strong>Legal Compliance &amp; Fair Practices:</strong> Ensuring
-              reviews are non‑discriminatory, legally compliant, and aligned with
-              EEOC, GDPR, and local employment laws.
+              <div className="pl-1">
+                <strong>Legal Compliance &amp; Fair Practices:</strong> Ensuring
+                reviews are non‑discriminatory, legally compliant, and aligned with
+                EEOC, GDPR, and local employment laws.
+              </div>
             </li>
           </ul>
         </section>
@@ -61,20 +63,26 @@ export default function PerformanceManagementPage() {
           Training Leaders on Effective Performance Management
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
-          <ul className="list-disc list-inside space-y-2 md:space-y-3">
+          <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3">
             <li>
-              <strong>Coaching Managers on Constructive Feedback:</strong> Teaching
-              leaders how to deliver clear, objective, and actionable evaluations.
+              <div className="pl-1">
+                <strong>Coaching Managers on Constructive Feedback:</strong> Teaching
+                leaders how to deliver clear, objective, and actionable evaluations.
+              </div>
             </li>
             <li>
-              <strong>Bias‑Free &amp; Compliant Processes:</strong> Training to
-              avoid unconscious bias and ensure fair assessments based on
-              performance.
+              <div className="pl-1">
+                <strong>Bias‑Free &amp; Compliant Processes:</strong> Training to
+                avoid unconscious bias and ensure fair assessments based on
+                performance.
+              </div>
             </li>
             <li>
-              <strong>Handling Difficult Conversations:</strong> Equipping
-              managers with strategies for professional and productive
-              performance discussions.
+              <div className="pl-1">
+                <strong>Handling Difficult Conversations:</strong> Equipping
+                managers with strategies for professional and productive
+                performance discussions.
+              </div>
             </li>
           </ul>
         </section>
@@ -91,31 +99,43 @@ export default function PerformanceManagementPage() {
           <h3 className="text-lg font-medium mb-2">Employee Engagement Programs</h3>
           <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3 mb-4">
             <li>
-              <strong>Culture &amp; Satisfaction Assessments:</strong> Surveys to
-              measure sentiment, identify gaps, and create improvement plans.
+              <div className="pl-1">
+                <strong>Culture &amp; Satisfaction Assessments:</strong> Surveys to
+                measure sentiment, identify gaps, and create improvement plans.
+              </div>
             </li>
             <li>
-              <strong>Recognition &amp; Rewards Strategies:</strong> Incentive and
-              non‑monetary programs that drive engagement.
+              <div className="pl-1">
+                <strong>Recognition &amp; Rewards Strategies:</strong> Incentive and
+                non‑monetary programs that drive engagement.
+              </div>
             </li>
             <li>
-              <strong>Leadership &amp; Career Growth:</strong> Mentorship,
-              internal mobility, and skills development to boost retention.
+              <div className="pl-1">
+                <strong>Leadership &amp; Career Growth:</strong> Mentorship,
+                internal mobility, and skills development to boost retention.
+              </div>
             </li>
           </ul>
           <h3 className="text-lg font-medium mb-2">Turnover Analysis &amp; Retention</h3>
-          <ul className="list-disc list-inside space-y-2 md:space-y-3">
+          <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3">
             <li>
-              <strong>Key Trend Identification:</strong> Analyze exit interviews,
-              sentiment, and benchmarks to spot risks.
+              <div className="pl-1">
+                <strong>Key Trend Identification:</strong> Analyze exit interviews,
+                sentiment, and benchmarks to spot risks.
+              </div>
             </li>
             <li>
-              <strong>Proactive Strategies:</strong> Career development,
-              compensation adjustments, and work–life balance plans.
+              <div className="pl-1">
+                <strong>Proactive Strategies:</strong> Career development,
+                compensation adjustments, and work–life balance plans.
+              </div>
             </li>
             <li>
-              <strong>Remote &amp; Hybrid Engagement:</strong> Keeping distributed
-              teams connected and motivated.
+              <div className="pl-1">
+                <strong>Remote &amp; Hybrid Engagement:</strong> Keeping distributed
+                teams connected and motivated.
+              </div>
             </li>
           </ul>
         </section>
@@ -129,18 +149,24 @@ export default function PerformanceManagementPage() {
             improving productivity while minimizing risks. We help companies
             implement structured Performance Improvement Plans (PIPs).
           </p>
-          <ul className="list-disc list-inside space-y-2 md:space-y-3">
+          <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3">
             <li>
-              <strong>Step‑by‑Step Improvement Frameworks:</strong> Clear
-              expectations, measurable goals, and realistic timeframes.
+              <div className="pl-1">
+                <strong>Step‑by‑Step Improvement Frameworks:</strong> Clear
+                expectations, measurable goals, and realistic timeframes.
+              </div>
             </li>
             <li>
-              <strong>Fair &amp; Documented Management:</strong> Compliance with
-              FLSA, EEOC, and international standards to protect against claims.
+              <div className="pl-1">
+                <strong>Fair &amp; Documented Management:</strong> Compliance with
+                FLSA, EEOC, and international standards to protect against claims.
+              </div>
             </li>
             <li>
-              <strong>Coaching &amp; Training:</strong> Mentorship and targeted
-              skill development for underperforming employees.
+              <div className="pl-1">
+                <strong>Coaching &amp; Training:</strong> Mentorship and targeted
+                skill development for underperforming employees.
+              </div>
             </li>
           </ul>
         </section>
@@ -149,18 +175,24 @@ export default function PerformanceManagementPage() {
           Handling Terminations &amp; Legal Considerations
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
-          <ul className="list-disc list-inside space-y-2">
+          <ul className="list-disc list-outside ml-5 space-y-2">
             <li>
-              <strong>Documenting Issues Properly:</strong> Legally defensible
-              records to prevent disputes.
+              <div className="pl-1">
+                <strong>Documenting Issues Properly:</strong> Legally defensible
+                records to prevent disputes.
+              </div>
             </li>
             <li>
-              <strong>Ethical &amp; Compliant Terminations:</strong> Fair dismissal
-              procedures in line with U.S., UK, and EU laws.
+              <div className="pl-1">
+                <strong>Ethical &amp; Compliant Terminations:</strong> Fair dismissal
+                procedures in line with U.S., UK, and EU laws.
+              </div>
             </li>
             <li>
-              <strong>Severance &amp; Exit Strategy:</strong> Structured offboarding
-              with transition assistance and knowledge transfer.
+              <div className="pl-1">
+                <strong>Severance &amp; Exit Strategy:</strong> Structured offboarding
+                with transition assistance and knowledge transfer.
+              </div>
             </li>
           </ul>
         </section>
@@ -169,9 +201,9 @@ export default function PerformanceManagementPage() {
           Why Choose Our Performance Management Services?
         </h2>
         <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3">
-          <li> Legally Compliant &amp; Risk‑Free Solutions</li>
-          <li> Leadership‑Driven Performance Culture</li>
-          <li> Customized &amp; Scalable Strategies</li>
+          <li><div className="pl-1">Legally Compliant &amp; Risk‑Free Solutions</div></li>
+          <li><div className="pl-1">Leadership‑Driven Performance Culture</div></li>
+          <li><div className="pl-1">Customized &amp; Scalable Strategies</div></li>
         </ul>
       </article>
     </div>

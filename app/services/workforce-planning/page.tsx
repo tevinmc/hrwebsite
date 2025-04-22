@@ -67,21 +67,27 @@ export default function WorkforcePlanningPage() {
           Compliance-Focused Workforce Adjustments
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
-          <ul className="list-disc list-inside space-y-2 md:space-y-3">
+          <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3">
             <li>
-              <strong>Managing HR Risks During Workforce Changes:</strong> Ensuring
-              compliance with U.S. federal, state, local, and international
-              employment laws.
+              <div className="pl-1">
+                <strong>Managing HR Risks During Workforce Changes:</strong> Ensuring
+                compliance with U.S. federal, state, local, and international
+                employment laws.
+              </div>
             </li>
             <li>
-              <strong>Job Classification &amp; Compensation Reviews:</strong>{" "}
-              Ensuring proper classification, salary structures, and benefits
-              compliance.
+              <div className="pl-1">
+                <strong>Job Classification &amp; Compensation Reviews:</strong>{" "}
+                Ensuring proper classification, salary structures, and benefits
+                compliance.
+              </div>
             </li>
             <li>
-              <strong>HR Compliance Audits for Organizational Changes:</strong>{" "}
-              Evaluating contracts, severance agreements, and restructuring
-              policies to align with best practices.
+              <div className="pl-1">
+                <strong>HR Compliance Audits for Organizational Changes:</strong>{" "}
+                Evaluating contracts, severance agreements, and restructuring
+                policies to align with best practices.
+              </div>
             </li>
           </ul>
         </section>
@@ -101,35 +107,47 @@ export default function WorkforcePlanningPage() {
           </h3>
           <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3 mb-4">
             <li>
-              <strong>Assessing Workforce Needs &amp; Business Impact:</strong>{" "}
-              Conducting HR impact assessments to determine which roles should be
-              adjusted or eliminated.
+              <div className="pl-1">
+                <strong>Assessing Workforce Needs &amp; Business Impact:</strong>{" "}
+                Conducting HR impact assessments to determine which roles should be
+                adjusted or eliminated.
+              </div>
             </li>
             <li>
-              <strong>Ensuring Legal Compliance:</strong> Advising on WARN Act (U.S.),
-              EU collective dismissal rules, and country-specific protections.
+              <div className="pl-1">
+                <strong>Ensuring Legal Compliance:</strong> Advising on WARN Act (U.S.),
+                EU collective dismissal rules, and country-specific protections.
+              </div>
             </li>
             <li>
-              <strong>Manager Training on Layoff Communication:</strong> Coaching
-              leaders to deliver decisions professionally and empathetically.
+              <div className="pl-1">
+                <strong>Manager Training on Layoff Communication:</strong> Coaching
+                leaders to deliver decisions professionally and empathetically.
+              </div>
             </li>
           </ul>
           <h3 className="text-lg font-medium mb-2">
             Employee Relations &amp; Support During Downsizing
           </h3>
-          <ul className="list-disc list-inside space-y-2 md:space-y-3">
+          <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3">
             <li>
-              <strong>Severance Plan Development:</strong> Structuring packages
-              with benefits continuation, transition assistance, and compliance.
+              <div className="pl-1">
+                <strong>Severance Plan Development:</strong> Structuring packages
+                with benefits continuation, transition assistance, and compliance.
+              </div>
             </li>
             <li>
-              <strong>Handling Employee Morale &amp; Engagement:</strong> Strategies
-              to support remaining staff, rebuild trust, and sustain productivity.
+              <div className="pl-1">
+                <strong>Handling Employee Morale &amp; Engagement:</strong> Strategies
+                to support remaining staff, rebuild trust, and sustain productivity.
+              </div>
             </li>
             <li>
-              <strong>Providing Outplacement Services:</strong> Resume coaching,
-              job placement resources, and career counseling for displaced
-              employees.
+              <div className="pl-1">
+                <strong>Providing Outplacement Services:</strong> Resume coaching,
+                job placement resources, and career counseling for displaced
+                employees.
+              </div>
             </li>
           </ul>
         </section>
@@ -146,35 +164,47 @@ export default function WorkforcePlanningPage() {
           <h3 className="text-lg font-medium mb-2">
             Structuring Fair &amp; Compliant Severance Packages
           </h3>
-          <ul className="list-disc list-inside space-y-2 md:space-y-3 mb-4">
+          <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3 mb-4">
             <li>
-              <strong>Customized Severance Agreements:</strong> Drafting policies
-              aligned with culture, budget, and labor laws.
+              <div className="pl-1">
+                <strong>Customized Severance Agreements:</strong> Drafting policies
+                aligned with culture, budget, and labor laws.
+              </div>
             </li>
             <li>
-              <strong>Benefits Continuation &amp; Post-Employment Support:</strong>{" "}
-              Extended health benefits, COBRA compliance, and transition assistance.
+              <div className="pl-1">
+                <strong>Benefits Continuation &amp; Post-Employment Support:</strong>{" "}
+                Extended health benefits, COBRA compliance, and transition assistance.
+              </div>
             </li>
             <li>
-              <strong>Documentation &amp; Compliance Reviews:</strong> Ensuring NDAs
-              and exit documents comply with all relevant laws.
+              <div className="pl-1">
+                <strong>Documentation &amp; Compliance Reviews:</strong> Ensuring NDAs
+                and exit documents comply with all relevant laws.
+              </div>
             </li>
           </ul>
           <h3 className="text-lg font-medium mb-2">
             Managing Employee Transitions &amp; Offboarding
           </h3>
-          <ul className="list-disc list-inside space-y-2 md:space-y-3">
+          <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3">
             <li>
-              <strong>Knowledge Transfer &amp; Continuity Planning:</strong>{" "}
-              Capturing and sharing critical knowledge before exits.
+              <div className="pl-1">
+                <strong>Knowledge Transfer &amp; Continuity Planning:</strong>{" "}
+                Capturing and sharing critical knowledge before exits.
+              </div>
             </li>
             <li>
-              <strong>Smooth Offboarding Processes:</strong> Standardizing exits,
-              final pay, and property returns.
+              <div className="pl-1">
+                <strong>Smooth Offboarding Processes:</strong> Standardizing exits,
+                final pay, and property returns.
+              </div>
             </li>
             <li>
-              <strong>Handling All Separation Types:</strong> Best practices for
-              resignations, retirements, and involuntary terminations.
+              <div className="pl-1">
+                <strong>Handling All Separation Types:</strong> Best practices for
+                resignations, retirements, and involuntary terminations.
+              </div>
             </li>
           </ul>
         </section>
@@ -193,16 +223,22 @@ export default function WorkforcePlanningPage() {
           </h3>
           <ul className="list-disc list-outside ml-5 space-y-2 mb-4">
             <li>
-              <strong>Analyzing Workforce Trends &amp; Hiring Needs:</strong>{" "}
-              Identifying future talent gaps and emerging skills.
+              <div className="pl-1">
+                <strong>Analyzing Workforce Trends &amp; Hiring Needs:</strong>{" "}
+                Identifying future talent gaps and emerging skills.
+              </div>
             </li>
             <li>
-              <strong>Developing Scalable Recruitment &amp; Retention:</strong>{" "}
-              Hiring at the right time to minimize turnover.
+              <div className="pl-1">
+                <strong>Developing Scalable Recruitment &amp; Retention:</strong>{" "}
+                Hiring at the right time to minimize turnover.
+              </div>
             </li>
             <li>
-              <strong>Workforce Cost &amp; Compensation Planning:</strong>{" "}
-              Balancing salaries, incentives, and benefits.
+              <div className="pl-1">
+                <strong>Workforce Cost &amp; Compensation Planning:</strong>{" "}
+                Balancing salaries, incentives, and benefits.
+              </div>
             </li>
           </ul>
           <h3 className="text-lg font-medium mb-2">
@@ -210,16 +246,22 @@ export default function WorkforcePlanningPage() {
           </h3>
           <ul className="list-disc list-outside ml-5 space-y-2">
             <li>
-              <strong>Identifying &amp; Preparing Future Leaders:</strong>{" "}
-              Succession frameworks to ensure leadership continuity.
+              <div className="pl-1">
+                <strong>Identifying &amp; Preparing Future Leaders:</strong>{" "}
+                Succession frameworks to ensure leadership continuity.
+              </div>
             </li>
             <li>
-              <strong>Career Pathing &amp; Upskilling:</strong> Structured growth
-              programs to develop internal talent.
+              <div className="pl-1">
+                <strong>Career Pathing &amp; Upskilling:</strong> Structured growth
+                programs to develop internal talent.
+              </div>
             </li>
             <li>
-              <strong>Hybrid &amp; Remote Workforce Management:</strong> Ensuring
-              compliance and engagement for distributed teams.
+              <div className="pl-1">
+                <strong>Hybrid &amp; Remote Workforce Management:</strong> Ensuring
+                compliance and engagement for distributed teams.
+              </div>
             </li>
           </ul>
         </section>
@@ -229,15 +271,21 @@ export default function WorkforcePlanningPage() {
         </h2>
         <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3">
           <li>
-             Legally Compliant Workforce Solutions — Ensuring all transitions
-            align with labor laws.
+            <div className="pl-1">
+              Legally Compliant Workforce Solutions — Ensuring all transitions
+              align with labor laws.
+            </div>
           </li>
           <li>
-             HR-Driven Business Strategy — Integrating HR planning with company goals.
+            <div className="pl-1">
+              HR-Driven Business Strategy — Integrating HR planning with company goals.
+            </div>
           </li>
           <li>
-             Balanced Workforce Management — Tailored strategies for growth,
-            restructuring, or downsizing.
+            <div className="pl-1">
+              Balanced Workforce Management — Tailored strategies for growth,
+              restructuring, or downsizing.
+            </div>
           </li>
         </ul>
       </article>

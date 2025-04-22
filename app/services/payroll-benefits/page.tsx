@@ -49,14 +49,18 @@ export default function PayrollBenefitsPage() {
               </div>
             </li>
             <li>
-              <strong>Payroll Automation &amp; Process Optimization:</strong>{" "}
-              Implementing time‑tracking, wage calculations, and tax reporting
-              automation to reduce errors and inefficiencies.
+              <div className="pl-1">
+                <strong>Payroll Automation &amp; Process Optimization:</strong>{" "}
+                Implementing time‑tracking, wage calculations, and tax reporting
+                automation to reduce errors and inefficiencies.
+              </div>
             </li>
             <li>
-              <strong>Global Payroll Coordination:</strong> Ensuring compliance with
-              cross-border payroll regulations for businesses managing remote teams
-              and international employees.
+              <div className="pl-1">
+                <strong>Global Payroll Coordination:</strong> Ensuring compliance with
+                cross-border payroll regulations for businesses managing remote teams
+                and international employees.
+              </div>
             </li>
           </ul>
 
@@ -65,9 +69,11 @@ export default function PayrollBenefitsPage() {
           </h3>
           <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3">
             <li>
-              <strong>U.S. Payroll Compliance:</strong> Aligning payroll processing
-              with IRS regulations, FLSA wage laws, state tax requirements, and ACA
-              reporting mandates.
+              <div className="pl-1">
+                <strong>U.S. Payroll Compliance:</strong> Aligning payroll processing
+                with IRS regulations, FLSA wage laws, state tax requirements, and ACA
+                reporting mandates.
+              </div>
             </li>
             <li>
               <strong>International Payroll Compliance:</strong> Ensuring adherence
@@ -75,9 +81,11 @@ export default function PayrollBenefitsPage() {
               EU social security, Canada’s CPP, UK NICs), and labor regulations.
             </li>
             <li>
-              <strong>Payroll Tax Filing &amp; Reporting:</strong> Assisting with
-              accurate payroll tax filing, W‑2s, 1099s, and other required tax
-              documents for employees and contractors.
+              <div className="pl-1">
+                <strong>Payroll Tax Filing &amp; Reporting:</strong> Assisting with
+                accurate payroll tax filing, W‑2s, 1099s, and other required tax
+                documents for employees and contractors.
+              </div>
             </li>
           </ul>
         </section>
@@ -89,42 +97,54 @@ export default function PayrollBenefitsPage() {
           <h3 className="text-lg font-medium mb-2">
             Designing &amp; Managing Comprehensive Benefits Packages
           </h3>
-          <ul className="list-disc list-inside space-y-2 md:space-y-3 mb-4">
+          <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3 mb-4">
             <li>
-              <strong>Health &amp; Wellness Benefits:</strong> Assisting in the
-              selection and management of health insurance, dental, vision, and
-              wellness programs that comply with ACA (U.S.), NHS (UK), and other
-              international healthcare mandates.
+              <div className="pl-1">
+                <strong>Health &amp; Wellness Benefits:</strong> Assisting in the
+                selection and management of health insurance, dental, vision, and
+                wellness programs that comply with ACA (U.S.), NHS (UK), and other
+                international healthcare mandates.
+              </div>
             </li>
             <li>
-              <strong>Retirement &amp; Pension Plans:</strong> Helping businesses set
-              up 401(k), IRAs, Roth plans (U.S.), pension schemes (EU &amp; UK),
-              and international retirement benefits.
+              <div className="pl-1">
+                <strong>Retirement &amp; Pension Plans:</strong> Helping businesses set
+                up 401(k), IRAs, Roth plans (U.S.), pension schemes (EU &amp; UK),
+                and international retirement benefits.
+              </div>
             </li>
             <li>
-              <strong>Paid Time Off (PTO) &amp; Leave Policies:</strong> Ensuring
-              compliance with FMLA (U.S.), EU Paid Leave Directive, and other
-              global leave laws while developing customized PTO policies.
+              <div className="pl-1">
+                <strong>Paid Time Off (PTO) &amp; Leave Policies:</strong> Ensuring
+                compliance with FMLA (U.S.), EU Paid Leave Directive, and other
+                global leave laws while developing customized PTO policies.
+              </div>
             </li>
           </ul>
 
           <h3 className="text-lg font-medium mb-2">
             Regulatory Compliance for Employee Benefits
           </h3>
-          <ul className="list-disc list-inside space-y-2 md:space-y-3">
+          <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3">
             <li>
-              <strong>U.S. Benefits Compliance:</strong> Ensuring adherence to ERISA,
-              COBRA, HIPAA, and ACA regulations to avoid penalties.
+              <div className="pl-1">
+                <strong>U.S. Benefits Compliance:</strong> Ensuring adherence to ERISA,
+                COBRA, HIPAA, and ACA regulations to avoid penalties.
+              </div>
             </li>
             <li>
-              <strong>Global Benefits Compliance:</strong> Managing benefits in
-              compliance with country‑specific labor laws, taxation rules, and
-              mandatory employer contributions.
+              <div className="pl-1">
+                <strong>Global Benefits Compliance:</strong> Managing benefits in
+                compliance with country‑specific labor laws, taxation rules, and
+                mandatory employer contributions.
+              </div>
             </li>
             <li>
-              <strong>Equity &amp; Non‑Discrimination:</strong> Ensuring benefits
-              plans meet legal and ethical standards for fair access and equal
-              opportunity.
+              <div className="pl-1">
+                <strong>Equity &amp; Non‑Discrimination:</strong> Ensuring benefits
+                plans meet legal and ethical standards for fair access and equal
+                opportunity.
+              </div>
             </li>
           </ul>
         </section>
@@ -136,37 +156,47 @@ export default function PayrollBenefitsPage() {
           <h3 className="text-lg font-medium mb-2">
             Employee Education &amp; Open Enrollment Support
           </h3>
-          <ul className="list-disc list-inside space-y-2 md:space-y-3 mb-4">
+          <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3 mb-4">
             <li>
-              <strong>Customized Benefits Guides:</strong> Creating easy-to-understand
-              materials that explain health plans, retirement options, and PTO
-              policies.
+              <div className="pl-1">
+                <strong>Customized Benefits Guides:</strong> Creating easy-to-understand
+                materials that explain health plans, retirement options, and PTO
+                policies.
+              </div>
             </li>
             <li>
-              <strong>Benefits Enrollment Assistance:</strong> Supporting employees
-              during open enrollment periods, new hire onboarding, and life event
-              changes.
+              <div className="pl-1">
+                <strong>Benefits Enrollment Assistance:</strong> Supporting employees
+                during open enrollment periods, new hire onboarding, and life event
+                changes.
+              </div>
             </li>
             <li>
-              <strong>Financial Wellness &amp; Retirement Planning:</strong>{" "}
-              Providing workshops, one-on-one counseling, and digital resources to
-              help employees maximize their benefits.
+              <div className="pl-1">
+                <strong>Financial Wellness &amp; Retirement Planning:</strong>{" "}
+                Providing workshops, one-on-one counseling, and digital resources to
+                help employees maximize their benefits.
+              </div>
             </li>
           </ul>
 
           <h3 className="text-lg font-medium mb-2">
             Ongoing Benefits Support &amp; Employee Advocacy
           </h3>
-          <ul className="list-disc list-inside space-y-2 md:space-y-3">
+          <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3">
             <li>
-              <strong>Claims &amp; Questions Assistance:</strong> Helping employees
-              navigate healthcare claims, retirement contributions, and leave
-              requests.
+              <div className="pl-1">
+                <strong>Claims &amp; Questions Assistance:</strong> Helping employees
+                navigate healthcare claims, retirement contributions, and leave
+                requests.
+              </div>
             </li>
             <li>
-              <strong>Policy Updates &amp; Compliance Reviews:</strong> Ensuring
-              benefit plans remain competitive and legally compliant with changing
-              labor laws and tax regulations.
+              <div className="pl-1">
+                <strong>Policy Updates &amp; Compliance Reviews:</strong> Ensuring
+                benefit plans remain competitive and legally compliant with changing
+                labor laws and tax regulations.
+              </div>
             </li>
           </ul>
         </section>
@@ -175,9 +205,9 @@ export default function PayrollBenefitsPage() {
           Why Choose Our Payroll &amp; Benefits Administration Services?
         </h2>
         <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3">
-          <li> Simplified Payroll Operations &amp; Compliance</li>
-          <li> Competitive &amp; Compliant Benefits Packages</li>
-          <li> Expert Support &amp; Ongoing Employee Advocacy</li>
+          <li><div className="pl-1">Simplified Payroll Operations &amp; Compliance</div></li>
+          <li><div className="pl-1">Competitive &amp; Compliant Benefits Packages</div></li>
+          <li><div className="pl-1">Expert Support &amp; Ongoing Employee Advocacy</div></li>
         </ul>
       </article>
 
