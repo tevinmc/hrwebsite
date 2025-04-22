@@ -37,8 +37,8 @@ export default function PerformanceManagementPage() {
             businesses in designing and implementing performance management
             frameworks tailored to their workforce and industry.
           </p>
-          <ul className="list-disc list-inside space-y-2">
-            <li>
+          <ul className="list-disc list-inside space-y-2 md:space-y-3">
+            <li className="py-1">
               <strong>Annual, Quarterly, or Ongoing Reviews:</strong> We develop
               structured systems balancing formal evaluations with continuous
               feedback.
@@ -59,7 +59,7 @@ export default function PerformanceManagementPage() {
           Training Leaders on Effective Performance Management
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
-          <ul className="list-disc list-inside space-y-2">
+          <ul className="list-disc list-inside space-y-2 md:space-y-3">
             <li>
               <strong>Coaching Managers on Constructive Feedback:</strong> Teaching
               leaders how to deliver clear, objective, and actionable evaluations.
@@ -87,7 +87,7 @@ export default function PerformanceManagementPage() {
             retain top talent and improve satisfaction.
           </p>
           <h3 className="text-lg font-medium mb-2">Employee Engagement Programs</h3>
-          <ul className="list-disc list-inside space-y-2 mb-4">
+          <ul className="list-disc list-inside space-y-2 md:space-y-3 mb-4">
             <li>
               <strong>Culture &amp; Satisfaction Assessments:</strong> Surveys to
               measure sentiment, identify gaps, and create improvement plans.
@@ -102,7 +102,7 @@ export default function PerformanceManagementPage() {
             </li>
           </ul>
           <h3 className="text-lg font-medium mb-2">Turnover Analysis &amp; Retention</h3>
-          <ul className="list-disc list-inside space-y-2">
+          <ul className="list-disc list-inside space-y-2 md:space-y-3">
             <li>
               <strong>Key Trend Identification:</strong> Analyze exit interviews,
               sentiment, and benchmarks to spot risks.
@@ -127,7 +127,7 @@ export default function PerformanceManagementPage() {
             improving productivity while minimizing risks. We help companies
             implement structured Performance Improvement Plans (PIPs).
           </p>
-          <ul className="list-disc list-inside space-y-2">
+          <ul className="list-disc list-inside space-y-2 md:space-y-3">
             <li>
               <strong>Step‑by‑Step Improvement Frameworks:</strong> Clear
               expectations, measurable goals, and realistic timeframes.
@@ -166,7 +166,7 @@ export default function PerformanceManagementPage() {
         <h2 className="text-2xl text-primary mb-4">
           Why Choose Our Performance Management Services?
         </h2>
-        <ul className="list-disc list-inside space-y-2">
+        <ul className="list-disc list-inside space-y-2 md:space-y-3">
           <li> Legally Compliant &amp; Risk‑Free Solutions</li>
           <li> Leadership‑Driven Performance Culture</li>
           <li> Customized &amp; Scalable Strategies</li>

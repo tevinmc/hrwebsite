@@ -40,8 +40,8 @@ export default function PayrollBenefitsPage() {
           <h3 className="text-lg font-medium mb-2">
             Payroll System Implementation &amp; Management
           </h3>
-          <ul className="list-disc list-inside space-y-2 mb-4">
-            <li>
+          <ul className="list-disc list-inside space-y-2 md:space-y-3 mb-4">
+            <li className="py-1">
               <strong>Payroll System Selection &amp; Integration:</strong> Assisting
               businesses in choosing the right payroll software or third-party
               provider to streamline payroll processing.
@@ -61,7 +61,7 @@ export default function PayrollBenefitsPage() {
           <h3 className="text-lg font-medium mb-2">
             Ensuring Legal &amp; Tax Compliance
           </h3>
-          <ul className="list-disc list-inside space-y-2">
+          <ul className="list-disc list-inside space-y-2 md:space-y-3">
             <li>
               <strong>U.S. Payroll Compliance:</strong> Aligning payroll processing
               with IRS regulations, FLSA wage laws, state tax requirements, and ACA
@@ -87,7 +87,7 @@ export default function PayrollBenefitsPage() {
           <h3 className="text-lg font-medium mb-2">
             Designing &amp; Managing Comprehensive Benefits Packages
           </h3>
-          <ul className="list-disc list-inside space-y-2 mb-4">
+          <ul className="list-disc list-inside space-y-2 md:space-y-3 mb-4">
             <li>
               <strong>Health &amp; Wellness Benefits:</strong> Assisting in the
               selection and management of health insurance, dental, vision, and
@@ -109,7 +109,7 @@ export default function PayrollBenefitsPage() {
           <h3 className="text-lg font-medium mb-2">
             Regulatory Compliance for Employee Benefits
           </h3>
-          <ul className="list-disc list-inside space-y-2">
+          <ul className="list-disc list-inside space-y-2 md:space-y-3">
             <li>
               <strong>U.S. Benefits Compliance:</strong> Ensuring adherence to ERISA,
               COBRA, HIPAA, and ACA regulations to avoid penalties.
@@ -134,7 +134,7 @@ export default function PayrollBenefitsPage() {
           <h3 className="text-lg font-medium mb-2">
             Employee Education &amp; Open Enrollment Support
           </h3>
-          <ul className="list-disc list-inside space-y-2 mb-4">
+          <ul className="list-disc list-inside space-y-2 md:space-y-3 mb-4">
             <li>
               <strong>Customized Benefits Guides:</strong> Creating easy-to-understand
               materials that explain health plans, retirement options, and PTO
@@ -155,7 +155,7 @@ export default function PayrollBenefitsPage() {
           <h3 className="text-lg font-medium mb-2">
             Ongoing Benefits Support &amp; Employee Advocacy
           </h3>
-          <ul className="list-disc list-inside space-y-2">
+          <ul className="list-disc list-inside space-y-2 md:space-y-3">
             <li>
               <strong>Claims &amp; Questions Assistance:</strong> Helping employees
               navigate healthcare claims, retirement contributions, and leave
@@ -172,7 +172,7 @@ export default function PayrollBenefitsPage() {
         <h2 className="text-2xl text-primary mb-4">
           Why Choose Our Payroll &amp; Benefits Administration Services?
         </h2>
-        <ul className="list-disc list-inside space-y-2">
+        <ul className="list-disc list-inside space-y-2 md:space-y-3">
           <li> Simplified Payroll Operations &amp; Compliance</li>
           <li> Competitive &amp; Compliant Benefits Packages</li>
           <li> Expert Support &amp; Ongoing Employee Advocacy</li>

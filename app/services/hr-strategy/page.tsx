@@ -41,8 +41,8 @@ export default function HRStrategyPage() {
           <h3 className="text-lg font-medium mb-2">
             Strategic Workforce Planning &amp; Talent Management
           </h3>
-          <ul className="list-disc list-inside space-y-2">
-            <li>
+          <ul className="list-disc list-inside space-y-2 md:space-y-3">
+            <li className="py-1">
               <strong>Aligning HR with Business Goals:</strong> Designing HR
               strategies that support company expansion, innovation, and
               long-term sustainability.
@@ -64,7 +64,7 @@ export default function HRStrategyPage() {
           <h3 className="text-lg font-medium mb-2">
             HR Policy Development &amp; Org Structure Optimization
           </h3>
-          <ul className="list-disc list-inside space-y-2">
+          <ul className="list-disc list-inside space-y-2 md:space-y-3">
             <li>
               <strong>Creating HR Policies That Support Growth:</strong> Developing
               scalable policies that foster productivity, engagement, and
@@ -97,7 +97,7 @@ export default function HRStrategyPage() {
           <h3 className="text-lg font-medium mb-2">
             Executive &amp; Management Coaching
           </h3>
-          <ul className="list-disc list-inside space-y-2 mb-4">
+          <ul className="list-disc list-inside space-y-2 md:space-y-3 mb-4">
             <li>
               <strong>One-on-One Leadership Coaching:</strong> Personalized
               coaching for executives, senior leaders, and mid-level managers to
@@ -117,7 +117,7 @@ export default function HRStrategyPage() {
           <h3 className="text-lg font-medium mb-2">
             Training &amp; Development for Managers
           </h3>
-          <ul className="list-disc list-inside space-y-2">
+          <ul className="list-disc list-inside space-y-2 md:space-y-3">
             <li>
               <strong>Performance Management Training:</strong> Teaching managers
               to set goals, give constructive feedback, and handle evaluations
@@ -149,7 +149,7 @@ export default function HRStrategyPage() {
           <h3 className="text-lg font-medium mb-2">
             Identifying &amp; Developing Future Leaders
           </h3>
-          <ul className="list-disc list-inside space-y-2 mb-4">
+          <ul className="list-disc list-inside space-y-2 md:space-y-3 mb-4">
             <li>
               <strong>Talent Assessment &amp; Readiness Programs:</strong>{" "}
               Identifying high-potential employees and preparing them for
@@ -168,7 +168,7 @@ export default function HRStrategyPage() {
           <h3 className="text-lg font-medium mb-2">
             Ensuring Continuity &amp; Stability
           </h3>
-          <ul className="list-disc list-inside space-y-2">
+          <ul className="list-disc list-inside space-y-2 md:space-y-3">
             <li>
               <strong>Emergency Succession Plans:</strong> Structured plans for
               C-suite, senior management, and mission-critical roles.
@@ -187,7 +187,7 @@ export default function HRStrategyPage() {
         <h2 className="text-2xl text-primary mb-4">
           Why Choose Our HR Strategy &amp; Org Development Services?
         </h2>
-        <ul className="list-disc list-inside space-y-2">
+        <ul className="list-disc list-inside space-y-2 md:space-y-3">
           <li>
              Future-Focused Workforce Planning – Designing strategies for
             sustainable growth.

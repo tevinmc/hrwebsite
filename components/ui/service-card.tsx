@@ -16,7 +16,7 @@ export function ServiceCard({ title, description, buttonText, href }: ServiceCar
         <CardTitle className="text-lg md:text-xl">{title}</CardTitle>
       </CardHeader>
       <CardContent className="flex-grow flex flex-col">
-        <p className="mb-6 text-sm md:text-base">{description}</p>
+        <p className="mb-6 text-sm md:text-base leading-relaxed">{description}</p>
         <Button 
           asChild 
           variant="outline" 

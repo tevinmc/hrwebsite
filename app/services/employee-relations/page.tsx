@@ -32,8 +32,8 @@ export default function EmployeeRelationsPage() {
           Workplace Dispute Mediation &amp; Conflict Resolution
         </h2>
         <section className="border border-border rounded-md p-4 md:p-6 bg-white dark:bg-card">
-          <ul className="list-disc list-inside space-y-2">
-            <li>
+          <ul className="list-disc list-inside space-y-2 md:space-y-3">
+            <li className="py-1">
               <strong>Impartial Workplace Mediation:</strong> We facilitate
               conflict resolution between employees, managers, and teams through
               structured mediation, ensuring fairness and confidentiality.
@@ -63,7 +63,7 @@ export default function EmployeeRelationsPage() {
           Manager Training: Communication &amp; Leadership Development
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
-          <ul className="list-disc list-inside space-y-2">
+          <ul className="list-disc list-inside space-y-2 md:space-y-3">
             <li>
               <strong>Training for Conflict Prevention &amp; Resolution:</strong> We
               equip managers with skills to de‑escalate conflicts, foster open
@@ -92,7 +92,7 @@ export default function EmployeeRelationsPage() {
           Handling Employee Grievances &amp; Complaint Resolution
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
-          <ul className="list-disc list-inside space-y-2">
+          <ul className="list-disc list-inside space-y-2 md:space-y-3">
             <li>
               <strong>Fair &amp; Transparent Grievance Policies:</strong> We help
               establish clear procedures that comply with U.S. labor laws, UK
@@ -120,7 +120,7 @@ export default function EmployeeRelationsPage() {
           Building a Positive Workplace Culture
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
-          <ul className="list-disc list-inside space-y-2">
+          <ul className="list-disc list-inside space-y-2 md:space-y-3">
             <li>
               <strong>Employee Engagement Strategies:</strong> We help boost morale,
               reduce turnover, and create a workplace where employees feel valued
@@ -142,7 +142,7 @@ export default function EmployeeRelationsPage() {
         <h2 className="text-2xl text-primary mb-4">
           Why Choose Our Employee Relations &amp; Conflict Resolution Services?
         </h2>
-        <ul className="list-disc list-inside space-y-2">
+        <ul className="list-disc list-inside space-y-2 md:space-y-3">
           <li> Legally Compliant &amp; Risk‑Free Solutions</li>
           <li> Proactive Conflict Prevention</li>
           <li> Customized Support for Your Business</li>

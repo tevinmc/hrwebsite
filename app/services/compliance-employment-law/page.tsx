@@ -30,7 +30,7 @@ export default function ComplianceEmploymentLawPage() {
 
         <section className="border border-border rounded-md p-4 md:p-6 bg-white dark:bg-card">
           <h3 className="text-xl font-medium mb-2 text-foreground">Workplace Investigations</h3>
-          <ul className="list-disc list-inside space-y-1">
+          <ul className="list-disc list-inside space-y-2 md:space-y-3">
             <li>
               Conduct impartial investigations into workplace misconduct, harassment,
               and discrimination claims while adhering to EEOC (U.S.), ACAS (UK), and
@@ -49,7 +49,7 @@ export default function ComplianceEmploymentLawPage() {
 
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
           <h3 className="text-xl font-medium mb-2 text-foreground">HR Audits &amp; Compliance Reviews</h3>
-          <ul className="list-disc list-inside space-y-1">
+          <ul className="list-disc list-inside space-y-2 md:space-y-3">
             <li>
               Assess compliance with U.S. laws such as the FLSA, FMLA, and ADA, as well
               as global labor laws including the EU Working Time Directive, UK
@@ -70,7 +70,7 @@ export default function ComplianceEmploymentLawPage() {
         {/* ...repeat similar styled <section> blocks for other topics... */}
 
         <h2 className="text-2xl text-primary mb-4">Why Choose Our Compliance Services?</h2>
-        <ul className="list-disc list-inside space-y-1">
+        <ul className="list-disc list-inside space-y-2 md:space-y-3">
           <li>
             <strong>Global Expertise:</strong> Our team ensures compliance with
             employment laws across multiple regions, including North America,

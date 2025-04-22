@@ -32,8 +32,8 @@ export default function RecruitmentHiringSupportPage() {
           Strategic Talent Acquisition &amp; Workforce Planning
         </h2>
         <section className="border border-border rounded-md p-4 md:p-6 bg-white dark:bg-card">
-          <ul className="list-disc list-inside space-y-2">
-            <li>
+          <ul className="list-disc list-inside space-y-2 md:space-y-3">
+            <li className="py-1">
               <strong>Align Hiring with Business Objectives:</strong> We help
               businesses develop a structured recruitment strategy that aligns with
               workforce planning, company growth, and long-term talent needs.
@@ -56,7 +56,7 @@ export default function RecruitmentHiringSupportPage() {
           Legally Compliant Job Descriptions &amp; Job Postings
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
-          <ul className="list-disc list-inside space-y-2">
+          <ul className="list-disc list-inside space-y-2 md:space-y-3">
             <li>
               <strong>Clear, Inclusive, and Legally Sound Job Descriptions:</strong>{" "}
               We craft job descriptions that attract top talent while ensuring
@@ -82,7 +82,7 @@ export default function RecruitmentHiringSupportPage() {
           Compliant Candidate Screening &amp; Interviewing
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
-          <ul className="list-disc list-inside space-y-2">
+          <ul className="list-disc list-inside space-y-2 md:space-y-3">
             <li>
               <strong>Pre‑Screening for Efficiency &amp; Compliance:</strong> We
               streamline applicant screening while ensuring hiring practices align
@@ -108,7 +108,7 @@ export default function RecruitmentHiringSupportPage() {
           International &amp; Cross‑Border Hiring Compliance
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
-          <ul className="list-disc list-inside space-y-2">
+          <ul className="list-disc list-inside space-y-2 md:space-y-3">
             <li>
               <strong>Work Visa &amp; Sponsorship Guidance:</strong> We advise
               businesses on U.S. H‑1B, L‑1, TN visas, UK Skilled Worker Visas, EU
@@ -132,7 +132,7 @@ export default function RecruitmentHiringSupportPage() {
           Legally Compliant Background &amp; Reference Checks
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
-          <ul className="list-disc list-inside space-y-2">
+          <ul className="list-disc list-inside space-y-2 md:space-y-3">
             <li>
               <strong>Adherence to Global Background Screening Laws:</strong> We
               ensure all background checks comply with FCRA (U.S.), GDPR (EU), and
@@ -155,7 +155,7 @@ export default function RecruitmentHiringSupportPage() {
           Seamless &amp; Compliant Onboarding Solutions
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
-          <ul className="list-disc list-inside space-y-2">
+          <ul className="list-disc list-inside space-y-2 md:space-y-3">
             <li>
               <strong>Legally Sound Employment Documentation:</strong> We prepare
               and review employment contracts, offer letters, and tax forms,
@@ -177,7 +177,7 @@ export default function RecruitmentHiringSupportPage() {
         </section>
 
         <h2 className="text-2xl text-primary mb-4">Why Work With Us?</h2>
-        <ul className="list-disc list-inside space-y-2">
+        <ul className="list-disc list-inside space-y-2 md:space-y-3">
           <li> Legally Compliant &amp; Risk‑Free Hiring</li>
           <li> Efficient &amp; Scalable Hiring Process</li>
           <li> Global &amp; Local Expertise</li>

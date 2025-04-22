@@ -42,8 +42,8 @@ export default function WorkforcePlanningPage() {
           <h3 className="text-lg font-medium mb-2">
             Aligning HR Strategy with Business Objectives
           </h3>
-          <ul className="list-disc list-inside space-y-2">
-            <li>
+          <ul className="list-disc list-inside space-y-2 md:space-y-3">
+            <li className="py-1">
               <strong>Workforce Forecasting &amp; Talent Planning:</strong> Analyzing
               hiring trends, internal skills gaps, and workforce demographics to
               plan for future staffing needs.
@@ -65,7 +65,7 @@ export default function WorkforcePlanningPage() {
           Compliance-Focused Workforce Adjustments
         </h2>
         <section className="border border-border rounded-md p-6 bg-white dark:bg-card">
-          <ul className="list-disc list-inside space-y-2">
+          <ul className="list-disc list-inside space-y-2 md:space-y-3">
             <li>
               <strong>Managing HR Risks During Workforce Changes:</strong> Ensuring
               compliance with U.S. federal, state, local, and international
@@ -97,7 +97,7 @@ export default function WorkforcePlanningPage() {
           <h3 className="text-lg font-medium mb-2">
             Ethical &amp; Legally Compliant Layoff Planning
           </h3>
-          <ul className="list-disc list-inside space-y-2 mb-4">
+          <ul className="list-disc list-inside space-y-2 md:space-y-3 mb-4">
             <li>
               <strong>Assessing Workforce Needs &amp; Business Impact:</strong>{" "}
               Conducting HR impact assessments to determine which roles should be
@@ -115,7 +115,7 @@ export default function WorkforcePlanningPage() {
           <h3 className="text-lg font-medium mb-2">
             Employee Relations &amp; Support During Downsizing
           </h3>
-          <ul className="list-disc list-inside space-y-2">
+          <ul className="list-disc list-inside space-y-2 md:space-y-3">
             <li>
               <strong>Severance Plan Development:</strong> Structuring packages
               with benefits continuation, transition assistance, and compliance.
@@ -144,7 +144,7 @@ export default function WorkforcePlanningPage() {
           <h3 className="text-lg font-medium mb-2">
             Structuring Fair &amp; Compliant Severance Packages
           </h3>
-          <ul className="list-disc list-inside space-y-2 mb-4">
+          <ul className="list-disc list-inside space-y-2 md:space-y-3 mb-4">
             <li>
               <strong>Customized Severance Agreements:</strong> Drafting policies
               aligned with culture, budget, and labor laws.
@@ -161,7 +161,7 @@ export default function WorkforcePlanningPage() {
           <h3 className="text-lg font-medium mb-2">
             Managing Employee Transitions &amp; Offboarding
           </h3>
-          <ul className="list-disc list-inside space-y-2">
+          <ul className="list-disc list-inside space-y-2 md:space-y-3">
             <li>
               <strong>Knowledge Transfer &amp; Continuity Planning:</strong>{" "}
               Capturing and sharing critical knowledge before exits.
@@ -225,7 +225,7 @@ export default function WorkforcePlanningPage() {
         <h2 className="text-2xl text-primary mb-4">
           Why Choose Our Workforce Planning &amp; Downsizing Services?
         </h2>
-        <ul className="list-disc list-inside space-y-2">
+        <ul className="list-disc list-inside space-y-2 md:space-y-3">
           <li>
              Legally Compliant Workforce Solutions — Ensuring all transitions
             align with labor laws.
