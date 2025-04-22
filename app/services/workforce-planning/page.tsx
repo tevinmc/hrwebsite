@@ -42,11 +42,13 @@ export default function WorkforcePlanningPage() {
           <h3 className="text-lg font-medium mb-2">
             Aligning HR Strategy with Business Objectives
           </h3>
-          <ul className="list-disc list-inside space-y-2 md:space-y-3">
+          <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3">
             <li className="py-1">
-              <strong>Workforce Forecasting &amp; Talent Planning:</strong> Analyzing
-              hiring trends, internal skills gaps, and workforce demographics to
-              plan for future staffing needs.
+              <div className="pl-1">
+                <strong>Workforce Forecasting &amp; Talent Planning:</strong> Analyzing
+                hiring trends, internal skills gaps, and workforce demographics to
+                plan for future staffing needs.
+              </div>
             </li>
             <li>
               <strong>Optimizing Workforce Costs &amp; Efficiency:</strong> Helping
@@ -97,7 +99,7 @@ export default function WorkforcePlanningPage() {
           <h3 className="text-lg font-medium mb-2">
             Ethical &amp; Legally Compliant Layoff Planning
           </h3>
-          <ul className="list-disc list-inside space-y-2 md:space-y-3 mb-4">
+          <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3 mb-4">
             <li>
               <strong>Assessing Workforce Needs &amp; Business Impact:</strong>{" "}
               Conducting HR impact assessments to determine which roles should be
@@ -189,7 +191,7 @@ export default function WorkforcePlanningPage() {
           <h3 className="text-lg font-medium mb-2">
             Proactive Workforce Planning for Business Growth
           </h3>
-          <ul className="list-disc list-inside space-y-2 mb-4">
+          <ul className="list-disc list-outside ml-5 space-y-2 mb-4">
             <li>
               <strong>Analyzing Workforce Trends &amp; Hiring Needs:</strong>{" "}
               Identifying future talent gaps and emerging skills.
@@ -206,7 +208,7 @@ export default function WorkforcePlanningPage() {
           <h3 className="text-lg font-medium mb-2">
             Succession Planning &amp; Internal Talent Development
           </h3>
-          <ul className="list-disc list-inside space-y-2">
+          <ul className="list-disc list-outside ml-5 space-y-2">
             <li>
               <strong>Identifying &amp; Preparing Future Leaders:</strong>{" "}
               Succession frameworks to ensure leadership continuity.
@@ -225,7 +227,7 @@ export default function WorkforcePlanningPage() {
         <h2 className="text-2xl text-primary mb-4">
           Why Choose Our Workforce Planning &amp; Downsizing Services?
         </h2>
-        <ul className="list-disc list-inside space-y-2 md:space-y-3">
+        <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3">
           <li>
              Legally Compliant Workforce Solutions — Ensuring all transitions
             align with labor laws.

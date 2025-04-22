@@ -40,11 +40,13 @@ export default function PayrollBenefitsPage() {
           <h3 className="text-lg font-medium mb-2">
             Payroll System Implementation &amp; Management
           </h3>
-          <ul className="list-disc list-inside space-y-2 md:space-y-3 mb-4">
+          <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3 mb-4">
             <li className="py-1">
-              <strong>Payroll System Selection &amp; Integration:</strong> Assisting
-              businesses in choosing the right payroll software or third-party
-              provider to streamline payroll processing.
+              <div className="pl-1">
+                <strong>Payroll System Selection &amp; Integration:</strong> Assisting
+                businesses in choosing the right payroll software or third-party
+                provider to streamline payroll processing.
+              </div>
             </li>
             <li>
               <strong>Payroll Automation &amp; Process Optimization:</strong>{" "}
@@ -61,7 +63,7 @@ export default function PayrollBenefitsPage() {
           <h3 className="text-lg font-medium mb-2">
             Ensuring Legal &amp; Tax Compliance
           </h3>
-          <ul className="list-disc list-inside space-y-2 md:space-y-3">
+          <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3">
             <li>
               <strong>U.S. Payroll Compliance:</strong> Aligning payroll processing
               with IRS regulations, FLSA wage laws, state tax requirements, and ACA
@@ -172,7 +174,7 @@ export default function PayrollBenefitsPage() {
         <h2 className="text-2xl text-primary mb-4">
           Why Choose Our Payroll &amp; Benefits Administration Services?
         </h2>
-        <ul className="list-disc list-inside space-y-2 md:space-y-3">
+        <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3">
           <li> Simplified Payroll Operations &amp; Compliance</li>
           <li> Competitive &amp; Compliant Benefits Packages</li>
           <li> Expert Support &amp; Ongoing Employee Advocacy</li>

@@ -37,11 +37,13 @@ export default function PerformanceManagementPage() {
             businesses in designing and implementing performance management
             frameworks tailored to their workforce and industry.
           </p>
-          <ul className="list-disc list-inside space-y-2 md:space-y-3">
+          <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3">
             <li className="py-1">
-              <strong>Annual, Quarterly, or Ongoing Reviews:</strong> We develop
-              structured systems balancing formal evaluations with continuous
-              feedback.
+              <div className="pl-1">
+                <strong>Annual, Quarterly, or Ongoing Reviews:</strong> We develop
+                structured systems balancing formal evaluations with continuous
+                feedback.
+              </div>
             </li>
             <li>
               <strong>Competency‑Based &amp; Goal‑Oriented Assessments:</strong>{" "}
@@ -87,7 +89,7 @@ export default function PerformanceManagementPage() {
             retain top talent and improve satisfaction.
           </p>
           <h3 className="text-lg font-medium mb-2">Employee Engagement Programs</h3>
-          <ul className="list-disc list-inside space-y-2 md:space-y-3 mb-4">
+          <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3 mb-4">
             <li>
               <strong>Culture &amp; Satisfaction Assessments:</strong> Surveys to
               measure sentiment, identify gaps, and create improvement plans.
@@ -166,7 +168,7 @@ export default function PerformanceManagementPage() {
         <h2 className="text-2xl text-primary mb-4">
           Why Choose Our Performance Management Services?
         </h2>
-        <ul className="list-disc list-inside space-y-2 md:space-y-3">
+        <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3">
           <li> Legally Compliant &amp; Risk‑Free Solutions</li>
           <li> Leadership‑Driven Performance Culture</li>
           <li> Customized &amp; Scalable Strategies</li>

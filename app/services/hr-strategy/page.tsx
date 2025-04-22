@@ -41,11 +41,13 @@ export default function HRStrategyPage() {
           <h3 className="text-lg font-medium mb-2">
             Strategic Workforce Planning &amp; Talent Management
           </h3>
-          <ul className="list-disc list-inside space-y-2 md:space-y-3">
+          <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3">
             <li className="py-1">
-              <strong>Aligning HR with Business Goals:</strong> Designing HR
-              strategies that support company expansion, innovation, and
-              long-term sustainability.
+              <div className="pl-1">
+                <strong>Aligning HR with Business Goals:</strong> Designing HR
+                strategies that support company expansion, innovation, and
+                long-term sustainability.
+              </div>
             </li>
             <li>
               <strong>Workforce Analytics &amp; Data‑Driven Decisions:</strong>{" "}
@@ -97,7 +99,7 @@ export default function HRStrategyPage() {
           <h3 className="text-lg font-medium mb-2">
             Executive &amp; Management Coaching
           </h3>
-          <ul className="list-disc list-inside space-y-2 md:space-y-3 mb-4">
+          <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3 mb-4">
             <li>
               <strong>One-on-One Leadership Coaching:</strong> Personalized
               coaching for executives, senior leaders, and mid-level managers to
@@ -187,7 +189,7 @@ export default function HRStrategyPage() {
         <h2 className="text-2xl text-primary mb-4">
           Why Choose Our HR Strategy &amp; Org Development Services?
         </h2>
-        <ul className="list-disc list-inside space-y-2 md:space-y-3">
+        <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3">
           <li>
              Future-Focused Workforce Planning – Designing strategies for
             sustainable growth.

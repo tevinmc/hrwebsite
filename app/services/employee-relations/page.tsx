@@ -32,11 +32,13 @@ export default function EmployeeRelationsPage() {
           Workplace Dispute Mediation &amp; Conflict Resolution
         </h2>
         <section className="border border-border rounded-md p-4 md:p-6 bg-white dark:bg-card">
-          <ul className="list-disc list-inside space-y-2 md:space-y-3">
+          <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3">
             <li className="py-1">
-              <strong>Impartial Workplace Mediation:</strong> We facilitate
-              conflict resolution between employees, managers, and teams through
-              structured mediation, ensuring fairness and confidentiality.
+              <div className="pl-1">
+                <strong>Impartial Workplace Mediation:</strong> We facilitate
+                conflict resolution between employees, managers, and teams through
+                structured mediation, ensuring fairness and confidentiality.
+              </div>
             </li>
             <li>
               <strong>Compliance with Labor Laws:</strong> We guide businesses in
@@ -142,7 +144,7 @@ export default function EmployeeRelationsPage() {
         <h2 className="text-2xl text-primary mb-4">
           Why Choose Our Employee Relations &amp; Conflict Resolution Services?
         </h2>
-        <ul className="list-disc list-inside space-y-2 md:space-y-3">
+        <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3">
           <li> Legally Compliant &amp; Risk‑Free Solutions</li>
           <li> Proactive Conflict Prevention</li>
           <li> Customized Support for Your Business</li>

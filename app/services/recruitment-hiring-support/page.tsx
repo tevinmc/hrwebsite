@@ -32,11 +32,13 @@ export default function RecruitmentHiringSupportPage() {
           Strategic Talent Acquisition &amp; Workforce Planning
         </h2>
         <section className="border border-border rounded-md p-4 md:p-6 bg-white dark:bg-card">
-          <ul className="list-disc list-inside space-y-2 md:space-y-3">
+          <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3">
             <li className="py-1">
-              <strong>Align Hiring with Business Objectives:</strong> We help
-              businesses develop a structured recruitment strategy that aligns with
-              workforce planning, company growth, and long-term talent needs.
+              <div className="pl-1">
+                <strong>Align Hiring with Business Objectives:</strong> We help
+                businesses develop a structured recruitment strategy that aligns with
+                workforce planning, company growth, and long-term talent needs.
+              </div>
             </li>
             <li>
               <strong>Job Market &amp; Salary Benchmarking:</strong> We provide
@@ -177,7 +179,7 @@ export default function RecruitmentHiringSupportPage() {
         </section>
 
         <h2 className="text-2xl text-primary mb-4">Why Work With Us?</h2>
-        <ul className="list-disc list-inside space-y-2 md:space-y-3">
+        <ul className="list-disc list-outside ml-5 space-y-2 md:space-y-3">
           <li> Legally Compliant &amp; Risk‑Free Hiring</li>
           <li> Efficient &amp; Scalable Hiring Process</li>
           <li> Global &amp; Local Expertise</li>
