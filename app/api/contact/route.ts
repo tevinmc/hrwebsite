@@ -1,5 +1,9 @@
 import { NextResponse } from 'next/server';
 
+// Define allowed methods
+export const dynamic = 'force-dynamic';
+export const runtime = 'edge';
+
 export async function POST(request: Request) {
   try {
     const { firstName, lastName, email, phone, message } = await request.json();
@@ -31,10 +35,17 @@ export async function POST(request: Request) {
       })
     });
     
-    const responseData = await response.json();
-    
     if (!response.ok) {
-      throw new Error(responseData.message || 'Failed to submit form');
+      const text = await response.text();
+      let errorMessage = 'Failed to submit form';
+      try {
+        const responseData = JSON.parse(text);
+        errorMessage = responseData.message || errorMessage;
+      } catch (e) {
+        // If JSON parsing fails, use the text response
+        errorMessage = text || errorMessage;
+      }
+      throw new Error(errorMessage);
     }
 
     return NextResponse.json({ success: true });

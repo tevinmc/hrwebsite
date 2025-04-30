@@ -18,14 +18,37 @@ const handleSubmit = async (e: React.FormEvent) => {
  e.preventDefault();
  setStatus("sending");
  try {
-   const res = await fetch("/api/contact", {
+   // Use FormSubmit.co directly from the client side as a fallback
+   // This bypasses the API route if it's having issues
+   const formSubmitEndpoint = "https://formsubmit.co/ajax/admin@epiphanyenterprisesinternational.com";
+   
+   const formData = {
+     name: `${firstName} ${lastName}`,
+     email: email,
+     phone: phone || 'Not provided',
+     message: message,
+     _subject: 'New Contact Form Submission'
+   };
+   
+   const res = await fetch(formSubmitEndpoint, {
      method: "POST",
-     headers: { "Content-Type": "application/json" },
-     body: JSON.stringify({ firstName, lastName, email, phone, message }),
+     headers: { 
+       "Content-Type": "application/json",
+       "Accept": "application/json"
+     },
+     body: JSON.stringify(formData),
    });
    
-   const data = await res.json();
-   if (!res.ok) throw new Error(data.error || res.statusText);
+   if (!res.ok) {
+     const text = await res.text();
+     let errorData;
+     try {
+       errorData = JSON.parse(text);
+     } catch (e) {
+       throw new Error(text || res.statusText);
+     }
+     throw new Error(errorData.message || res.statusText);
+   }
    
    // Reset form on success
    setFirstName("");
