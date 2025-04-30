@@ -18,7 +18,7 @@ export function ContactForm() {
     e.preventDefault();
     try {
       const result = await sendEmail({
-        SecureToken: process.env.EMAIL_TOKEN,
+        SecureToken: "e54a27a1-3b84-4ba9-8228-715620b714c2",
         To: email,
         From: "info@epiphanyenterprisesinternational.com",
         Subject: `New contact form submission from ${firstName} ${lastName}`,
