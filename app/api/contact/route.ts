@@ -13,27 +13,28 @@ export async function POST(request: Request) {
     }
 
     // FormSubmit.co endpoint - a free email service that doesn't require API keys
-    // You'll need to activate your email with them first by visiting their site
-    const formSubmitEndpoint = `https://formsubmit.co/admin@epiphanyenterprisesinternational.com`;
+    const formSubmitEndpoint = `https://formsubmit.co/ajax/admin@epiphanyenterprisesinternational.com`;
     
-    const formData = new FormData();
-    formData.append('name', `${firstName} ${lastName}`);
-    formData.append('email', email);
-    formData.append('phone', phone || 'Not provided');
-    formData.append('message', message);
-    formData.append('_subject', 'New Contact Form Submission');
-    
-    // Send to FormSubmit
+    // Send to FormSubmit using their AJAX endpoint
     const response = await fetch(formSubmitEndpoint, {
       method: 'POST',
-      body: formData,
       headers: {
-        'Accept': 'application/json',
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
       },
+      body: JSON.stringify({
+        name: `${firstName} ${lastName}`,
+        email: email,
+        phone: phone || 'Not provided',
+        message: message,
+        _subject: 'New Contact Form Submission'
+      })
     });
     
+    const responseData = await response.json();
+    
     if (!response.ok) {
-      throw new Error('Failed to submit form');
+      throw new Error(responseData.message || 'Failed to submit form');
     }
 
     return NextResponse.json({ success: true });

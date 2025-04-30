@@ -23,7 +23,9 @@ const handleSubmit = async (e: React.FormEvent) => {
      headers: { "Content-Type": "application/json" },
      body: JSON.stringify({ firstName, lastName, email, phone, message }),
    });
-   if (!res.ok) throw new Error((await res.json()).error || res.statusText);
+   
+   const data = await res.json();
+   if (!res.ok) throw new Error(data.error || res.statusText);
    
    // Reset form on success
    setFirstName("");
@@ -33,13 +35,18 @@ const handleSubmit = async (e: React.FormEvent) => {
    setMessage("");
    setStatus("success");
    
-   // Reset success message after 3 seconds
+   // Reset success message after 5 seconds
    setTimeout(() => {
-     if (status === "success") setStatus("idle");
-   }, 3000);
+     setStatus("idle");
+   }, 5000);
  } catch (err) {
    console.error("Failed to send email:", err);
    setStatus("error");
+   
+   // Reset error message after 5 seconds
+   setTimeout(() => {
+     setStatus("idle");
+   }, 5000);
  }
 };
 
