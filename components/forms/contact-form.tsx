@@ -24,7 +24,19 @@ const handleSubmit = async (e: React.FormEvent) => {
      body: JSON.stringify({ firstName, lastName, email, phone, message }),
    });
    if (!res.ok) throw new Error((await res.json()).error || res.statusText);
+   
+   // Reset form on success
+   setFirstName("");
+   setLastName("");
+   setEmail("");
+   setPhone("");
+   setMessage("");
    setStatus("success");
+   
+   // Reset success message after 3 seconds
+   setTimeout(() => {
+     if (status === "success") setStatus("idle");
+   }, 3000);
  } catch (err) {
    console.error("Failed to send email:", err);
    setStatus("error");

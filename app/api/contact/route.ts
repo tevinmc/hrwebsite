@@ -1,5 +1,4 @@
 import { NextResponse } from 'next/server';
-import nodemailer from 'nodemailer';
 
 export async function POST(request: Request) {
   try {
@@ -13,42 +12,29 @@ export async function POST(request: Request) {
       );
     }
 
-    // Configure email transporter
-    const transporter = nodemailer.createTransport({
-      host: process.env.EMAIL_SERVER_HOST,
-      port: Number(process.env.EMAIL_SERVER_PORT),
-      secure: Boolean(process.env.EMAIL_SERVER_SECURE === 'true'),
-      auth: {
-        user: process.env.EMAIL_SERVER_USER,
-        pass: process.env.EMAIL_SERVER_PASSWORD,
+    // FormSubmit.co endpoint - a free email service that doesn't require API keys
+    // You'll need to activate your email with them first by visiting their site
+    const formSubmitEndpoint = `https://formsubmit.co/admin@epiphanyenterprisesinternational.com`;
+    
+    const formData = new FormData();
+    formData.append('name', `${firstName} ${lastName}`);
+    formData.append('email', email);
+    formData.append('phone', phone || 'Not provided');
+    formData.append('message', message);
+    formData.append('_subject', 'New Contact Form Submission');
+    
+    // Send to FormSubmit
+    const response = await fetch(formSubmitEndpoint, {
+      method: 'POST',
+      body: formData,
+      headers: {
+        'Accept': 'application/json',
       },
     });
-
-    // Email content
-    const mailOptions = {
-      from: process.env.EMAIL_FROM,
-      to: 'admin@epiphanyenterprisesinternational.com',
-      subject: 'New Contact Form Submission',
-      text: `
-        Name: ${firstName} ${lastName}
-        Email: ${email}
-        Phone: ${phone || 'Not provided'}
-        
-        Message:
-        ${message}
-      `,
-      html: `
-        <h2>New Contact Form Submission</h2>
-        <p><strong>Name:</strong> ${firstName} ${lastName}</p>
-        <p><strong>Email:</strong> ${email}</p>
-        <p><strong>Phone:</strong> ${phone || 'Not provided'}</p>
-        <p><strong>Message:</strong></p>
-        <p>${message.replace(/\n/g, '<br>')}</p>
-      `,
-    };
-
-    // Send email
-    await transporter.sendMail(mailOptions);
+    
+    if (!response.ok) {
+      throw new Error('Failed to submit form');
+    }
 
     return NextResponse.json({ success: true });
   } catch (error) {
